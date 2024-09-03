@@ -119,7 +119,7 @@ function AboutUsPage() {
                       </NavLink>
                     </h4>
                     <p className="text-white">
-                      Diverse Mining Products for Varied Industrial Needs.
+                    Diverse Mining Products for Varied Industrial Needs Such As Chrome Concentrate, Gypsum, Imported Manganese Ore.
                     </p>
                   </div>
                 </div>
@@ -143,8 +143,7 @@ function AboutUsPage() {
                        
                     </h4>
                     <p className="text-white">
-                      Advanced Logistics and Transport Solutions for Optimal
-                      Efficiency
+                    Advanced Logistics and Transport Solutions By Roadways And Railways for Optimal Efficiency
                     </p>
                   </div>
                 </div>
