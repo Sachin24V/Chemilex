@@ -1,127 +1,282 @@
 {
-    "about": {
-        "background": "about-banner.jpg",
-        "title": "About",
-        "crumb": "About"
-    },
-    "faq": {
-        "background": "faq-banner.jpg",
-        "title": "FAQ",
-        "crumb": "Frequently Asked Questions"
-    },
-    "team": {
-        "background": "our-team-banner.jpg",
-        "title": "Our Team",
-        "crumb": "Our Team"
-    },
-    "teamDetail": {
-        "background": "our-team-banner.jpg",
-        "title": "Team Member",
-        "crumb": "Team Member Detail"
-    },
-    "contact1": {
-        "background": "about-banner.jpg",
-        "title": "Contact 1",
-        "crumb": "Contact 1"
-    },
-    "contact2": {
-        "background": "about-banner.jpg",
-        "title": "Contact 2",
-        "crumb": "Contact 2"
-    },
-    "gallery1": {
-        "background": "gallery-banner.jpg",
-        "title": "Gallery Grid 1",
-        "crumb": "Gallery Grid 1"
-    },
-    "gallery2": {
-        "background": "gallery-banner.jpg",
-        "title": "Gallery Grid 2",
-        "crumb": "Gallery Grid 2"
-    },
-    "error404": {
-        "background": "about-banner.jpg",
-        "title": "Error",
-        "crumb": "Error 404"
-    },
-    "footerFixed": {
-        "background": "about-banner.jpg",
-        "title": "Footer Fixed",
-        "crumb": "Footer Fixed"
-    },
-    "footerLight": {
-        "background": "about-banner.jpg",
-        "title": "Footer Light",
-        "crumb": "Footer Light"
-    },
-    "footerDark": {
-        "background": "about-banner.jpg",
-        "title": "Footer Dark",
-        "crumb": "Footer Dark"
-    },
-    "services": {
-        "background": "services.jpg",
-        "title": "Services",
-        "crumb": "Services"
-    },
-    "serviceDetail": {
-        "background": "services.jpg",
-        "title": "Service Details",
-        "crumb": "Service Details"
-    },
-    "blogList": {
-        "background": "blog-banner.jpg",
-        "title": "Blog List",
-        "crumb": "Blog List"
-    },
-    "blogListSidebar": {
-        "background": "blog-banner.jpg",
-        "title": "Blog List Sidebar",
-        "crumb": "Blog List Sidebar"
-    },
-    "blogGrid": {
-        "background": "blog-banner.jpg",
-        "title": "Blog Grid",
-        "crumb": "Blog Grid"
-    },
-    "blogGridSidebar": {
-        "background": "blog-banner.jpg",
-        "title": "Blog Grid Sidebar",
-        "crumb": "Blog Grid Sidebar"
-    },
-    "blogPostSingle": {
-        "background": "blog-banner.jpg",
-        "title": "Blog Post",
-        "crumb": "Blog Post"
-    },
-    "shopProducts": {
-        "background": "product-banner.jpg",
-        "title": "Products",
-        "crumb": "Products"
-    },
-    "shopProductDetail": {
-        "background": "product-banner.jpg",
-        "title": "Product Details",
-        "crumb": "Product Details"
-    },
-    "shopCart": {
-        "background": "about-banner.jpg",
-        "title": "Shopping Cart",
-        "crumb": "Shopping Cart"
-    },
-    "shopWishlist": {
-        "background": "about-banner.jpg",
-        "title": "Wishlist",
-        "crumb": "Wishlist"
-    },
-    "shopCheckout": {
-        "background": "about-banner.jpg",
-        "title": "Checkout",
-        "crumb": "Checkout"
-    },
-    "elements": {
-        "background": "all.jpg",
-        "title": "Elements",
-        "crumb": "Elements"
-    }
+  "about": {
+    "background": "AboutUs.jpg",
+    "title": "About",
+    "crumb": "About"
+  },
+  "inquiry": {
+    "background": "Inquiry.jpg",
+    "title": "Inquiry",
+    "crumb": "Inquiry"
+  },
+  "faq": {
+    "background": "faq-banner.jpg",
+    "title": "FAQ",
+    "crumb": "Frequently Asked Questions"
+  },
+  "team": {
+    "background": "our-team-banner.jpg",
+    "title": "Our Team",
+    "crumb": "Our Team"
+  },
+  "teamDetail": {
+    "background": "our-team-banner.jpg",
+    "title": "Team Member",
+    "crumb": "Team Member Detail"
+  },
+  "contact1": {
+    "background": "Inquiry4.jpg",
+    "title": "Contact Us",
+    "crumb": "Contact Us"
+  },
+  "contact2": {
+    "background": "about-banner.jpg",
+    "title": "Contact 2",
+    "crumb": "Contact 2"
+  },
+  "gallery1": {
+    "background": "gallery-banner.jpg",
+    "title": "Gallery Grid 1",
+    "crumb": "Gallery Grid 1"
+  },
+  "gallery2": {
+    "background": "gallery-banner.jpg",
+    "title": "Gallery Grid 2",
+    "crumb": "Gallery Grid 2"
+  },
+  "error404": {
+    "background": "about-banner.jpg",
+    "title": "Error",
+    "crumb": "Error 404"
+  },
+  "footerFixed": {
+    "background": "about-banner.jpg",
+    "title": "Footer Fixed",
+    "crumb": "Footer Fixed"
+  },
+  "footerLight": {
+    "background": "about-banner.jpg",
+    "title": "Footer Light",
+    "crumb": "Footer Light"
+  },
+  "footerDark": {
+    "background": "about-banner.jpg",
+    "title": "Footer Dark",
+    "crumb": "Footer Dark"
+  },
+  "services": {
+    "background": "services.jpg",
+    "title": "Services",
+    "crumb": "Services"
+  },
+  "serviceDetail": {
+    "background": "services.jpg",
+    "title": "Service Details",
+    "crumb": "Service Details"
+  },
+  "blogList": {
+    "background": "blog-banner.jpg",
+    "title": "Blog List",
+    "crumb": "Blog List"
+  },
+  "blogListSidebar": {
+    "background": "blog-banner.jpg",
+    "title": "Blog List Sidebar",
+    "crumb": "Blog List Sidebar"
+  },
+  "blogGrid": {
+    "background": "blog-banner.jpg",
+    "title": "Blog Grid",
+    "crumb": "Blog Grid"
+  },
+  "blogGridSidebar": {
+    "background": "blog-banner.jpg",
+    "title": "Blog Grid Sidebar",
+    "crumb": "Blog Grid Sidebar"
+  },
+  "blogPostSingle": {
+    "background": "blog-banner.jpg",
+    "title": "Blog Post",
+    "crumb": "Blog Post"
+  },
+  "shopProducts": {
+    "background": "product-banner.jpg",
+    "title": "Products",
+    "crumb": "Products"
+  },
+  "shopProductDetail": {
+    "background": "product-banner.jpg",
+    "title": "Product Details",
+    "crumb": "Product Details"
+  },
+  "shopCart": {
+    "background": "about-banner.jpg",
+    "title": "Shopping Cart",
+    "crumb": "Shopping Cart"
+  },
+  "shopWishlist": {
+    "background": "about-banner.jpg",
+    "title": "Wishlist",
+    "crumb": "Wishlist"
+  },
+  "shopCheckout": {
+    "background": "about-banner.jpg",
+    "title": "Checkout",
+    "crumb": "Checkout"
+  },
+  "elements": {
+    "background": "all.jpg",
+    "title": "Elements",
+    "crumb": "Elements"
+  },
+  "Products": {
+    "background": "ProductsBanner-1.jpg",
+    "title": "Our Products",
+    "crumb": "Products"
+  },
+  "LimeProduct": {
+    "background": "LimeProductsbanner.jpg",
+    "title": "Lime Product",
+    "crumb": "Lime Product"
+  },
+  "ImportedIndianCoalCokes": {
+    "background": "ImportedIndianCoalCokes.jpg",
+    "title": "Imported & Indian Coal & Cokes",
+    "crumb": "Imported & Indian Coal & Cokes"
+  },
+  "IndianImportedCoal": {
+    "background": "about-banner.jpg",
+    "title": " Indian & Imported Coal",
+    "crumb": "Indian & Imported Coal"
+  },
+  "IndianImportedCoke": {
+    "background": "about-banner.jpg",
+    "title": " Indian & Imported Coke",
+    "crumb": "Indian & Imported Coke"
+  },
+  "ImportedCoal": {
+    "background": "about-banner.jpg",
+    "title": " Imported Coal",
+    "crumb": "Imported Coal "
+  },
+  "IndianCoalGrade": {
+    "background": "about-banner.jpg",
+    "title": "Indian Coal-Grade 1 To 17",
+    "crumb": "Indian Coal-Grade 1 To 17 "
+  },
+  "PrimeHardCookingCoal": {
+    "background": "about-banner.jpg",
+    "title": "Prime Hard Cooking Coal",
+    "crumb": "Prime Hard Cooking Coal "
+  },
+  "IndonesianSteamCoal": {
+    "background": "about-banner.jpg",
+    "title": " Indonesian Steam Coal",
+    "crumb": "Indonesian Steam Coal "
+  },
+  "SouthAfricanSteamCoal": {
+    "background": "about-banner.jpg",
+    "title": " South African Steam Coal",
+    "crumb": "South African Steam Coal "
+  },
+  "PCICoal": {
+    "background": "about-banner.jpg",
+    "title": " PCI Coal",
+    "crumb": " PCI Coal"
+  },
+  "AnthraciteCoal": {
+    "background": "about-banner.jpg",
+    "title": " Anthracite Coal",
+    "crumb": " Anthracite Coal"
+  },
+  "IndonesianMetCoke": {
+    "background": "about-banner.jpg",
+    "title": " Indonesian Met Coke",
+    "crumb": " Indonesian Met Coke"
+  },
+  "ChinaMetCoke": {
+    "background": "about-banner.jpg",
+    "title": "China Met Coke",
+    "crumb": " China Met Coke"
+  },
+  "ColombianMetCoke": {
+    "background": "about-banner.jpg",
+    "title": "Colombian Met Coke",
+    "crumb": " Colombian Met Coke"
+  },
+  "ColombianULP": {
+    "background": "about-banner.jpg",
+    "title": "Colombian ULP",
+    "crumb": " Colombian ULP"
+  },
+  "IndianLAMCoke": {
+    "background": "about-banner.jpg",
+    "title": "Indian LAM Coke",
+    "crumb": " Indian LAM Coke"
+  },
+  "OtherMiningProducts": {
+    "background": "OtherMiningProducts2.jpg",
+    "title": "Other Mining Products",
+    "crumb": " Other Mining Products"
+  },
+  "ChromeConcentrate": {
+    "background": "about-banner.jpg",
+    "title": "Chrome Concentrate",
+    "crumb": "  Chrome Concentrate"
+  },
+  "Gypsum": {
+    "background": "about-banner.jpg",
+    "title": "Gypsum",
+    "crumb": " Gypsum"
+  },
+  "ImportedMagnesesOre": {
+    "background": "about-banner.jpg",
+    "title": "Imported Magneses Ore",
+    "crumb": " Imported Magneses Ore"
+  },
+  "LogisticTransport": {
+    "background": "Logistic&Transport.jpg",
+    "title": "Logistic & Transport",
+    "crumb": " Logistic & Transport"
+  },
+  "RoadTransport": {
+    "background": "about-banner.jpg",
+    "title": "Road Transport",
+    "crumb": "  Road Transport"
+  },
+  "RailTransport": {
+    "background": "about-banner.jpg",
+    "title": "Rail Transport",
+    "crumb": "  Rail Transport"
+  },
+  "HydratedLimePowder": {
+    "background": "about-banner.jpg",
+    "title": "Hydrated Lime Powder",
+    "crumb": "  Hydrated Lime Powder"
+  },
+  "QuickLimePowder": {
+    "background": "about-banner.jpg",
+    "title": "Quick Lime Powder",
+    "crumb": "  Quick Lime Powder"
+  },
+  "QuickLimeStone": {
+    "background": "about-banner.jpg",
+    "title": "Quick Lime Stone",
+    "crumb": "  Quick Lime Stone"
+  },
+  "QuickLimeLumps": {
+    "background": "about-banner.jpg",
+    "title": "Quick Lime Lumps",
+    "crumb": "  Quick Lime Lumps"
+  },
+  "CAREER": {
+    "background": "Inquiry2.jpg",
+    "title": "Career",
+    "crumb": " Career"
+  },
+  "Clients": {
+    "background": "ourClients.jpg",
+    "title": "Clients",
+    "crumb": " Clients"
+  }
 }

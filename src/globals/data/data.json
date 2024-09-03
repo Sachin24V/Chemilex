@@ -1,161 +1,385 @@
 {
-	"team": {
-		"team1": [
-			{
-				"image": "images/our-team5/pic7.jpg",
-				"name": "Susan Black",
-				"designation": "Manager"
-			},
-			{
-				"image": "images/our-team5/pic8.jpg",
-				"name": "Joe Johnson",
-				"designation": "Manager"
-			},
-			{
-				"image": "images/our-team5/pic9.jpg",
-				"name": "May Horton",
-				"designation": "Chief operating"
-			},
-			{
-				"image": "images/our-team5/pic10.jpg",
-				"name": "May Horton",
-				"designation": "Chief operating"
-			}
-		],
-		"team2": [
-			{
-				"image": "images/our-team5/p1.jpg",
-				"name": "Susan Black",
-				"designation": "SEO Founder"
-			},
-			{
-				"image": "images/our-team5/p2.jpg",
-				"name": "Joe Johnson",
-				"designation": "Co-Founder"
-			},
-			{
-				"image": "images/our-team5/p3.jpg",
-				"name": "May Horton",
-				"designation": "Marketer"
-			}
-		]
-	},
-	"gallery": [
-		{
-			"category": "cat-1",
-			"image": "images/gallery/pic1.jpg",
-			"image_preview": "images/gallery/pic1.jpg"
-		},
-		{
-			"category": "cat-2",
-			"image": "images/gallery/pic2.jpg",
-			"image_preview": "images/gallery/pic2.jpg"
-		},
-		{
-			"category": "cat-3",
-			"image": "images/gallery/pic3.jpg",
-			"image_preview": "images/gallery/pic3.jpg"
-		},
-		{
-			"category": "cat-4",
-			"image": "images/gallery/pic4.jpg",
-			"image_preview": "images/gallery/pic4.jpg"
-		},
-		{
-			"category": "cat-5",
-			"image": "images/gallery/pic5.jpg",
-			"image_preview": "images/gallery/pic5.jpg"
-		},
-		{
-			"category": "cat-4",
-			"image": "images/gallery/pic6.jpg",
-			"image_preview": "images/gallery/pic6.jpg"
-		},
-		{
-			"category": "cat-3",
-			"image": "images/gallery/pic7.jpg",
-			"image_preview": "images/gallery/pic7.jpg"
-		},
-		{
-			"category": "cat-2",
-			"image": "images/gallery/pic8.jpg",
-			"image_preview": "images/gallery/pic8.jpg"
-		},
-		{
-			"category": "cat-2",
-			"image": "images/gallery/pic1.jpg",
-			"image_preview": "images/gallery/pic1.jpg"
-		}
-	],
-	"services": {
-		"explore": [
-			{
-				"icon": "flaticon-pencil",
-				"title": "Fast Worldwide delivery",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
-			},
-			{
-				"icon": "flaticon-solution",
-				"title": "Safety & Compliance",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
-			},
-			{
-				"icon": "flaticon-people-1",
-				"title": "Faster Performance",
-				"desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
-			}
-		],
-		"services": [
-			{
-				"image": "images/our-work/pic1.jpg",
-				"image_preview": "images/our-work/pic1.jpg",
-				"title": "Cargo",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			},
-			{
-				"image": "images/our-work/pic2.jpg",
-				"image_preview": "images/our-work/pic2.jpg",
-				"title": "Logistic Services",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			},
-			{
-				"image": "images/our-work/pic3.jpg",
-				"image_preview": "images/our-work/pic3.jpg",
-				"title": "Storage",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			},
-			{
-				"image": "images/our-work/pic4.jpg",
-				"image_preview": "images/our-work/pic4.jpg",
-				"title": "Ground Transport",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			},
-			{
-				"image": "images/our-work/pic5.jpg",
-				"image_preview": "images/our-work/pic5.jpg",
-				"title": "Trucking Services",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			},
-			{
-				"image": "images/our-work/pic6.jpg",
-				"image_preview": "images/our-work/pic6.jpg",
-				"title": "Warehousing",
-				"desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text."
-			}
-		]
-	},
-	"clients": [
-		"images/client-logo/logo1.png",
-		"images/client-logo/logo2.png",
-		"images/client-logo/logo3.png",
-		"images/client-logo/logo4.png",
-		"images/client-logo/logo5.png",
-		"images/client-logo/logo6.png",
-		"images/client-logo/logo7.png",
-		"images/client-logo/logo8.png",
-		"images/client-logo/logo1.png",
-		"images/client-logo/logo2.png",
-		"images/client-logo/logo3.png",
-		"images/client-logo/logo4.png"
-	]
+  "team": {
+    "team1": [
+      {
+        "image": "images/our-team5/pic7.jpg",
+        "name": "Susan Black",
+        "designation": "Manager"
+      },
+      {
+        "image": "images/our-team5/pic8.jpg",
+        "name": "Joe Johnson",
+        "designation": "Manager"
+      },
+      {
+        "image": "images/our-team5/pic9.jpg",
+        "name": "May Horton",
+        "designation": "Chief operating"
+      },
+      {
+        "image": "images/our-team5/pic10.jpg",
+        "name": "May Horton",
+        "designation": "Chief operating"
+      }
+    ],
+    "team2": [
+      {
+        "image": "images/our-team5/p1.jpg",
+        "name": "Susan Black",
+        "designation": "SEO Founder"
+      },
+      {
+        "image": "images/our-team5/p2.jpg",
+        "name": "Joe Johnson",
+        "designation": "Co-Founder"
+      },
+      {
+        "image": "images/our-team5/p3.jpg",
+        "name": "May Horton",
+        "designation": "Marketer"
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "category": "cat-1",
+      "image": "images/gallery/pic1.jpg",
+      "image_preview": "images/gallery/pic1.jpg"
+    },
+    {
+      "category": "cat-2",
+      "image": "images/gallery/pic2.jpg",
+      "image_preview": "images/gallery/pic2.jpg"
+    },
+    {
+      "category": "cat-3",
+      "image": "images/gallery/pic3.jpg",
+      "image_preview": "images/gallery/pic3.jpg"
+    },
+    {
+      "category": "cat-4",
+      "image": "images/gallery/pic4.jpg",
+      "image_preview": "images/gallery/pic4.jpg"
+    },
+    {
+      "category": "cat-5",
+      "image": "images/gallery/pic5.jpg",
+      "image_preview": "images/gallery/pic5.jpg"
+    },
+    {
+      "category": "cat-4",
+      "image": "images/gallery/pic6.jpg",
+      "image_preview": "images/gallery/pic6.jpg"
+    },
+    {
+      "category": "cat-3",
+      "image": "images/gallery/pic7.jpg",
+      "image_preview": "images/gallery/pic7.jpg"
+    },
+    {
+      "category": "cat-2",
+      "image": "images/gallery/pic8.jpg",
+      "image_preview": "images/gallery/pic8.jpg"
+    },
+    {
+      "category": "cat-2",
+      "image": "images/gallery/pic1.jpg",
+      "image_preview": "images/gallery/pic1.jpg"
+    }
+  ],
+  "services": {
+    "explore": [
+      {
+        "icon": "flaticon-pencil",
+        "title": "Fast Worldwide delivery",
+        "desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+      },
+      {
+        "icon": "flaticon-solution",
+        "title": "Safety & Compliance",
+        "desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+      },
+      {
+        "icon": "flaticon-people-1",
+        "title": "Faster Performance",
+        "desc_short": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+      }
+    ],
+    "services": [
+      {
+        "image1": "images/Products/HydratedLimePowder(2).jpg",
+        "image2": "images/Products/QuickLimeStone(3).jpg",
+        "image3": "images/Products/QuickLimeLumps(2).jpg",
+        "image4": "images/Products/QuickLimePowder(2).jpg",
+        "image_preview1": "images/Products/HydratedLimePowder(2).jpg",
+        "image_preview2": "images/Products/QuickLimeStone(3).jpg",
+        "image_preview3": "images/Products/QuickLimeLumps(2).jpg",
+        "image_preview4": "images/Products/QuickLimePowder(2).jpg",
+
+        "title": "Lime Products",
+
+        "path": "/product/limeproduct"
+      },
+      {
+        "image1": "images/Products/IndonesianMETCoke.jpg",
+        "image2": "images/Products/IndianLAMCoke.jpg",
+        "image3": "images/Products/CoalImportedIndianCoal.jpg",
+        "image4": "images/Products/CoalImportedIndianCoal(3).jpg",
+        "image_preview1": "images/Products/IndonesianMETCoke.jpg",
+        "image_preview2": " images/Products/IndianLAMCoke.jpg",
+        "image_preview3": "images/Products/CoalImportedIndianCoal.jpg",
+        "image_preview4": "images/Products/CoalImportedIndianCoal(3).jpg",
+        "title": "Imported & Indian Coal & Cokes  ",
+
+        "path": "/product/ImportedIndianCoalCokes"
+      },
+      {
+        "image1": "images/Products/ChromeConcentrate(2).jpg",
+        "image2": "images/Products/Gypsum.jpg",
+        "image3": "images/Products/QuickLimeLumps(2).jpg",
+        "image4": "images/Products/ChromeConcentrate.jpg",
+
+        "image_preview1": "images/Products/ChromeConcentrate(2).jpg",
+        "image_preview2": "images/Products/Gypsum.jpg",
+        "image_preview3": "images/Products/QuickLimeLumps(2).jpg",
+        "image_preview4": "images/Products/ChromeConcentrate.jpg",
+
+        "title": "Other Mining Products ",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/OtherMiningProducts"
+      },
+      {
+        "image1": "images/Products/RailTransport.jpg",
+        "image2": "images/Products/RoadTransport.jpg",
+        "image3": "images/Products/RailTransport(2).jpg",
+        "image4": "images/Products/28.jpg",
+        "image_preview1": "images/Products/RailTransport.jpg",
+        "image_preview2": "images/Products/RoadTransport.jpg",
+        "image_preview3": "images/Products/RailTransport(2).jpg",
+        "image_preview4": "images/Products/28.jpg",
+        "title": "Logistics & Transport     ",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/LogisticTransport"
+      }
+    ],
+    "SubProductsCoalCokes": [
+      {
+        "image1": "images/Products/CoalImportedIndianCoal.jpg",
+        "image2": "images/Products/CoalImportedIndianCoal(2).jpg",
+        "image3": "images/Products/CoalImportedIndianCoal(3).jpg",
+        "image_preview": "images/Products/RailTransport.jpg",
+        "title": "Coal-Imported/Indian Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndianImportedCoal"
+      },
+      {
+        "image1": "images/Products/ChinaMETCoke.jpg",
+        "image2": "images/Products/IndonesianMETCoke.jpg",
+        "image3": "images/Products/IndianLAMCoke.jpg",
+        "image_preview": "images/Products/RailTransport.jpg",
+        "title": "Coke-Imported/Indian Coke",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndianImportedCoke"
+      }
+    ],
+    "SubProductsCoal": [
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Imported Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ImportedCoal"
+      },
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Indian Coal-Grade 1 to Grade 17",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndianCoalGrade"
+      }
+    ],
+    "LimeProducts": [
+      {
+        "image1": "images/Products/HydratedLimePowder(2).jpg",
+        "image2": "images/Products/HydratedLimePowder(3).jpg",
+        "image3": "images/Products/HydratedLimePowder(4).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Hydrated Lime Powder",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/HydratedLimePowder"
+      },
+      {
+        "image1": "images/Products/QuickLimePowder.jpg",
+        "image2": "images/Products/QuickLimePowder(2).jpg",
+        "image3": "images/Products/QuickLimePowder(3).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Quick Lime Powder",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/QuickLimePowder"
+      },
+      {
+        "image1": "images/Products/QuickLimeStone.jpg",
+        "image2": "images/Products/QuickLimeStone(2).jpg",
+        "image3": "images/Products/QuickLimeStone(3).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Quick Lime Stone",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/QuickLimeStone"
+      },
+      {
+        "image1": "images/Products/QuickLimeLumps.jpg",
+        "image2": "images/Products/QuickLimeLumps(2).jpg",
+        "image3": "images/Products/QuickLimeLumps(3).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Quick Lime Lumps",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/QuickLimeLumps"
+      }
+    ],
+    "SubProductsCoke": [
+      {
+        "image1": "images/Products/IndonesianMETCoke.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Indonesian MET Coke",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndonesianMetCoke"
+      },
+      {
+        "image1": "images/Products/ChinaMETCoke.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3":  "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "China MET Coke",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ChinaMetCoke"
+      },
+      {
+        "image1": "images/our-work/pic1.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Colombian MET Coke",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ColombianMetCoke"
+      },
+      {
+        "image1":  "images/our-work/pic1.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Colombian (ULP)",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ColombianULP"
+      },
+      {
+        "image1": "images/Products/IndianLAMCoke.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Indian LAM Coke",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndianLAMCoke"
+      }
+    ],
+    "ImportedCoalSubProducts": [
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Prime Hard Cooking Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/PrimeHardCookingCoal"
+      },
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Indonesian Steam Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/IndonesianSteamCoal"
+      },
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "South African Steam Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/SouthAfricanSteamCoal"
+      },
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "PCI Coal ",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/PCI-Coal"
+      },
+      {
+        "image": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Anthracite Coal",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/AnthraciteCoal"
+      }
+    ],
+    "OtherMiningProductsr": [
+      {
+        "image1": "images/Products/ChromeConcentrate.jpg",
+        "image2": "images/Products/ChromeConcentrate(2).jpg",
+        "image3": "images/Products/ChromeConcentrate(3).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Chrome Concentrate",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ChromeConcentrate"
+      },
+      {
+        "image1": "images/Products/Gypsum.jpg",
+        "image2": "images/Products/Gypsum(2).jpg",
+        "image3": "images/Products/Gypsum(3).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Gypsum",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/Gypsum"
+      },
+      {
+        "image1": "images/our-work/pic1.jpg",
+        "image2": "images/our-work/pic1.jpg",
+        "image3": "images/our-work/pic1.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Imported mangenese Ore(East Africa)",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/ImportedMagnesesOre"
+      }
+    ],
+    "LogisticTransport": [
+      {
+        "image1": "images/Products/RoadTransport.jpg",
+        "image2": "images/Products/28.jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Road Transport",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/RoadTransport"
+      },
+      {
+        "image1": "images/Products/RailTransport.jpg",
+        "image2": "images/Products/RailTransport(2).jpg",
+        "image_preview": "images/our-work/pic1.jpg",
+        "title": "Rail Transport",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/RailTransport"
+      }
+    ]
+  },
+  "clients": [
+    "images/client-logo/logo1.png",
+    "images/client-logo/logo2.png",
+    "images/client-logo/logo3.png",
+    "images/client-logo/logo4.png",
+    "images/client-logo/logo5.png",
+    "images/client-logo/logo6.png",
+    "images/client-logo/logo7.png",
+    "images/client-logo/logo8.png",
+    "images/client-logo/logo1.png",
+    "images/client-logo/logo2.png",
+    "images/client-logo/logo3.png",
+    "images/client-logo/logo4.png"
+  ]
 }

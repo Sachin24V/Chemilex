@@ -22,7 +22,7 @@ function SectionHeader3() {
                 <div className="container">
                     <div className="logo-header hide-skew-section">
                         <NavLink to={route.home.HOME1}>
-                            <FastImage src="images/logo-1.png" width={216} height={37} alt="" />
+                            <FastImage src="images/ChemilexLogo.png" width={216} height={37} alt="" />
                         </NavLink>
                     </div>
                     <div className="header-info">
@@ -33,8 +33,9 @@ function SectionHeader3() {
                                         <span className="icon-cell  site-text-primary"><i className="iconmoon-smartphone" /></span>
                                     </div>
                                     <div className="icon-content">
-                                        <strong>Phone Number</strong>
-                                        <span>0234-8765-9110</span>
+                                        <strong>Call Us </strong>
+                                        <a href="tel:+919909107770"><span>+91 99091 07770</span></a>
+                                        
                                     </div>
                                 </div>
                             </li>
@@ -44,8 +45,8 @@ function SectionHeader3() {
                                         <span className="icon-cell  site-text-primary"><i className="iconmoon-envelope" /></span>
                                     </div>
                                     <div className="icon-content">
-                                        <strong>Email Address</strong>
-                                        <span>7xthemehelp@gamil.com</span>
+                                        <strong>Email Us</strong>
+                                       <a href="mailto:info@chemilex.com"><span>info@chemilex.com</span></a> 
                                     </div>
                                 </div>
                             </li>
@@ -65,7 +66,7 @@ function SectionHeader3() {
                         </button>
                         {/* ETRA Nav */}
                         <div className="extra-nav">
-                            <div className="extra-cell">
+                            {/* <div className="extra-cell">
                                 <a href="#" className="mt-cart cart-btn dropdown-toggle" title="Your Cart" id="ID-MSG_dropdown" data-bs-toggle="dropdown">
                                     <span className="link-inner">
                                         <span className="woo-cart-total"> </span>
@@ -111,7 +112,7 @@ function SectionHeader3() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="extra-cell">
                                 <a href="#search" className="site-search-btn"><i className="fa fa-search" /></a>
                             </div>
@@ -135,17 +136,18 @@ function SectionHeader3() {
                         <div className="header-nav navbar-collapse collapse ">
                             <ul className=" nav navbar-nav">
                                 <li className="active">
-                                    <a href="#">Home<i className="fa fa-chevron-down" /></a>
-                                    <ul className="sub-menu">
+                                <NavLink to={route.home.HOME3}>Home </NavLink>   
+                                    {/* <ul className="sub-menu">
                                         <li><NavLink to={route.home.HOME1}>Home-1</NavLink></li>
                                         <li><NavLink to={route.home.HOME2}>Home-2</NavLink></li>
                                         <li><NavLink to={route.home.HOME3}>Home-3</NavLink></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li>
-                                    <a href="#">Pages<i className="fa fa-chevron-down" /></a>
-                                    <ul className="sub-menu">
-                                        <li><NavLink to={route.pages.ABOUT}>About us</NavLink></li>
+                                    {/* <a href="#">Pages<i className="fa fa-chevron-down" /></a> */}
+                                    <NavLink to={route.pages.ABOUT}>About us</NavLink>
+                                    {/* <ul className="sub-menu">
+                                       
                                         <li><NavLink to={route.pages.FAQ}>FAQ</NavLink></li>
                                         <li><a href="#">Our Team</a>
                                             <ul className="sub-menu">
@@ -173,27 +175,27 @@ function SectionHeader3() {
                                                 <li><NavLink to={route.pages.features.footer.DARK}>Dark Footer</NavLink></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li>
-                                    <a href="#">Services<i className="fa fa-chevron-down" /></a>
-                                    <ul className="sub-menu">
-                                        <li><NavLink to={route.services.SERVICES}>Services</NavLink></li>
+                                <NavLink to={route.services.SERVICES}>Products</NavLink>
+                                    {/* <ul className="sub-menu">
+                                        <li></li>
                                         <li><NavLink to={route.services.DETAIL}>Services Detail</NavLink></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li>
-                                    <a href="#">Blog<i className="fa fa-chevron-down" /></a>
-                                    <ul className="sub-menu">
-                                        <li><NavLink to={route.blog.LIST}>Blog-List</NavLink></li>
+                                <NavLink to={route.blog.LIST}>Inquiry</NavLink>
+                                    {/* <ul className="sub-menu">
+                                        <li></li>
                                         <li><NavLink to={route.blog.LIST_SIDEBAR}>Blog-List-Sidebar</NavLink></li>
                                         <li><NavLink to={route.blog.GRID}>Blog-Grid</NavLink></li>
                                         <li><NavLink to={route.blog.GRID_SIDEBAR}>Blog-Grid-Sidebar</NavLink></li>
                                         <li><NavLink to={route.blog.POST_SINGLE}>Blog-Post-single</NavLink></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li>
-                                    <a href="#">Shop<i className="fa fa-chevron-down" /></a>
+                                {/* <li>
+                                <NavLink  path={route.pages.contact.CONTACT1}>Contact US</NavLink>
                                     <ul className="sub-menu">
                                         <li><NavLink to={route.shop.PRODUCTS}>Product</NavLink></li>
                                         <li><NavLink to={route.shop.DETAIL}>Product Detail</NavLink></li>
@@ -201,9 +203,9 @@ function SectionHeader3() {
                                         <li><NavLink to={route.shop.WISHLIST}>Wishlist</NavLink></li>
                                         <li><NavLink to={route.shop.CHECKOUT}>Checkout</NavLink></li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li>
-                                    <NavLink to={route.ELEMENTS}>Elements</NavLink>
+                                <NavLink  to={route.pages.contact.CONTACT1}>Contact US</NavLink>
                                 </li>
                             </ul>
                         </div>

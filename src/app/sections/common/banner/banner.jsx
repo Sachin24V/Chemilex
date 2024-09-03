@@ -12,7 +12,7 @@ function SectionBanner(props) {
                         <h1 className="text-white">{data.title}</h1>
                         {/* Breadcrumb */}
                         <ul className="mt-breadcrumb breadcrumb-style-1">
-                            <li><NavLink to={route.home.HOME1}>Home</NavLink></li>
+                            <li><NavLink to={route.INITIAL}>Home</NavLink></li>
                             <li>{data.crumb}</li>
                         </ul>
                     </div>
