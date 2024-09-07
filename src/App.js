@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       {isLoading && <Loader />}
-      <ScrollToTop />
+     
       <RootLayout />
     </>
   );

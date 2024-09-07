@@ -5,7 +5,7 @@
     "crumb": "About"
   },
   "inquiry": {
-    "background": "Inquiry.jpg",
+    "background": "NewInquiryBanner.jpg",
     "title": "Inquiry",
     "crumb": "Inquiry"
   },
@@ -25,7 +25,7 @@
     "crumb": "Team Member Detail"
   },
   "contact1": {
-    "background": "Inquiry4.jpg",
+    "background": "ContactUsBanner.jpg",
     "title": "Contact Us",
     "crumb": "Contact Us"
   },
@@ -131,8 +131,8 @@
   },
   "Products": {
     "background": "ProductsBanner-1.jpg",
-    "title": "Our Products",
-    "crumb": "Products"
+    "title": "Our Services",
+    "crumb": "Services"
   },
   "LimeProduct": {
     "background": "LimeProductsbanner.jpg",
@@ -141,21 +141,21 @@
   },
   "ImportedIndianCoalCokes": {
     "background": "ImportedIndianCoalCokes.jpg",
-    "title": "Imported & Indian Coal & Cokes",
-    "crumb": "Imported & Indian Coal & Cokes"
+    "title": " Indian/Imported Coal & Coke",
+    "crumb": "Indian/Imported Coal & Coke"
   },
   "IndianImportedCoal": {
-    "background": "about-banner.jpg",
+    "background": "IndianImportedCoal.jpg",
     "title": " Indian & Imported Coal",
     "crumb": "Indian & Imported Coal"
   },
   "IndianImportedCoke": {
-    "background": "about-banner.jpg",
+    "background": "Indian&ImportedCoke.png",
     "title": " Indian & Imported Coke",
     "crumb": "Indian & Imported Coke"
   },
   "ImportedCoal": {
-    "background": "about-banner.jpg",
+    "background": "ImpotedCaolBanner.jpg",
     "title": " Imported Coal",
     "crumb": "Imported Coal "
   },
@@ -166,8 +166,8 @@
   },
   "PrimeHardCookingCoal": {
     "background": "about-banner.jpg",
-    "title": "Prime Hard Cooking Coal",
-    "crumb": "Prime Hard Cooking Coal "
+    "title": "Prime Hard Coking Coal",
+    "crumb": "Prime Hard Coking Coal "
   },
   "IndonesianSteamCoal": {
     "background": "about-banner.jpg",
@@ -270,7 +270,7 @@
     "crumb": "  Quick Lime Lumps"
   },
   "CAREER": {
-    "background": "Inquiry2.jpg",
+    "background": "career.jpg",
     "title": "Career",
     "crumb": " Career"
   },

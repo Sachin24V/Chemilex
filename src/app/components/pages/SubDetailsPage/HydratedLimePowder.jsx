@@ -1,14 +1,166 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // import FastImage from "../../../globals/elements/fastimg";
 // import { loadScript, route } from "../../../globals/constants";
 import { NavLink } from "react-router-dom";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
+import Paper from "@mui/material/Paper";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+
+import TableRow from "@mui/material/TableRow";
+
+const columns = [
+  { id: "SPECIFICATION", label: "SPECIFICATION", minWidth: 170 },
+  { id: "+97", label: "+97", minWidth: 100 },
+  { id: "+96", label: "+96", minWidth: 100 },
+  { id: "+94", label: "+94", minWidth: 100 },
+  { id: "+93", label: "+93", minWidth: 100 },
+  { id: "+92", label: "+92", minWidth: 100 },
+  { id: "+90A", label: "+90 (A)", minWidth: 100 },
+  { id: "+90B", label: "+90 (B)", minWidth: 100 },
+  { id: "+85", label: "+85", minWidth: 100 },
+  { id: "+80", label: "+80", minWidth: 100 },
+  { id: "+75", label: "+75", minWidth: 100 },
+  { id: "+70", label: "+70", minWidth: 100 },
+  { id: "+60", label: "+60", minWidth: 100 },
+];
+
+function createData(
+  SPECIFICATION,
+  col1,
+  col2,
+  col3,
+  col4,
+  col5,
+  col6,
+  col7,
+  col8,
+  col9,
+  col10,
+  col11,
+  col12
+) {
+  return {
+    SPECIFICATION,
+    "+97": col1,
+    "+96": col2,
+    "+94": col3,
+    "+93": col4,
+    "+92": col5,
+    "+90A": col6,
+    "+90B": col7,
+    "+85": col8,
+    "+80": col9,
+    "+75": col10,
+    "+70": col11,
+    "+60": col12,
+  };
+}
+
+const rows = [
+  createData(
+    "% OF AVAILABLE LIME AS CA(OH)2",
+    97,
+    96,
+    94,
+    93,
+    92,
+    91,
+    90,
+    85,
+    80,
+    75,
+    70,
+    60
+  ),
+  createData(
+    "% OF AVAILABLE LIME AS CAO",
+    73.4,
+    72.64,
+    71.13,
+    70.37,
+    69.62,
+    68.86,
+    68.1,
+    64.32,
+    60.54,
+    56.75,
+    52.97,
+    45.4
+  ),
+  createData(
+    "% ADD INSOLUBLES (MAX.)",
+    0.08,
+    0.1,
+    0.15,
+    0.2,
+    0.5,
+    0.8,
+    1.0,
+    1.3,
+    2.5,
+    3,
+    4,
+    5.7
+  ),
+  createData(
+    "% IRON ALUMINA",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces"
+  ),
+  createData(
+    "% MAGNESIA AS MGO",
+    0.04,
+    0.5,
+    0.55,
+    0.6,
+    0.7,
+    0.8,
+    1,
+    1,
+    1.2,
+    1.4,
+    2,
+    2
+  ),
+  createData(
+    "MESS (BSS)",
+    600,
+    500,
+    450,
+    400,
+    350,
+    300,
+    250,
+    250,
+    200,
+    200,
+    150,
+    150
+  ),
+  createData("PACKING", "LAMINATED PP/HDPE BAG, JAMBO BAGS"),
+];
 
 function HydratedLimePowder() {
   useEffect(() => {
     loadScript("js/custom.js");
   });
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
 
   return (
     <>
@@ -19,10 +171,10 @@ function HydratedLimePowder() {
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="mt-box">
-                  <h2 className="m-t0">Hydrated Lime Powder</h2>
+                  <h2 className="m-t0">Hydrated Lime</h2>
 
                   <p>
-                    Our Hydrated Lime Powder, known chemically as Ca(OH)₂, is a
+                    Our Hydrated Lime, known chemically as Ca(OH)₂, is a
                     dry, fine, and free-flowing white powder. Produced using
                     advanced technology in our state-of-the-art manufacturing
                     facilities, this product is crafted through carefully
@@ -30,12 +182,12 @@ function HydratedLimePowder() {
                     high yield and excellent performance.
                   </p>
                   <p>
-                    Hydrated Lime Powder is a versatile product with extensive
+                  Hydrated Lime is a versatile product with extensive
                     applications across numerous industries. It is essential in
                     agriculture, chemical processing, dairy production, effluent
                     treatment, leather manufacturing, paint and coatings,
                     pharmaceuticals, road construction, and water treatment. Its
-                    diverse range of uses makes Hydrated Lime Powder an
+                    diverse range of uses makes Hydrated Lime an
                     indispensable component in both industrial and environmental
                     applications.
                   </p>
@@ -46,38 +198,83 @@ function HydratedLimePowder() {
                   <div className="item">
                     <div className="aon-thum-bx">
                       <FastImage
-                        src="images/Products/HydratedLimePowder.jpg"
+                        src="images/products/HydratedLimePowder(2).jpg"
                         alt=""
                       />
                     </div>
                   </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage
-                        src="images/Products/HydratedLimePowder(2).jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage
-                        src="images/Products/HydratedLimePowder(3).jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="section-full  p-t80 p-b50  ">
+        <div className="container  bg-white ">
+          <div className="section-content ">
+            <div className="row">
+              <div className="col-12">
+                <Paper sx={{ width: "100%", overflow: "hidden" }}>
+                  <TableContainer sx={{ maxHeight: 440 }}>
+                    <Table stickyHeader aria-label="sticky table">
+                      <TableHead>
+                        <TableRow>
+                          {columns.map((column) => (
+                            <TableCell
+                              key={column.id}
+                              align={column.align}
+                              style={{ minWidth: column.minWidth }}
+                            >
+                              {column.label}
+                            </TableCell>
+                          ))}
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {rows
+                          .slice(
+                            page * rowsPerPage,
+                            page * rowsPerPage + rowsPerPage
+                          )
+                          .map((row) => {
+                            return (
+                              <TableRow
+                                hover
+                                role="checkbox"
+                                tabIndex={-1}
+                                key={row.SPECIFICATION}
+                              >
+                                {columns.map((column) => {
+                                  const value = row[column.id];
+                                  return (
+                                    <TableCell
+                                      key={column.id}
+                                      align={column.align}
+                                    >
+                                      {value}
+                                    </TableCell>
+                                  );
+                                })}
+                              </TableRow>
+                            );
+                          })}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </Paper>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="section-full p-t80 p-b50 bg-gray">
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Other Products</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -92,37 +289,22 @@ function HydratedLimePowder() {
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage
-                            src="images/Products/QuickLimePowder.jpg"
+                                src="images/products/QuickLimeLumps.jpg"
                             alt=""
                           />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimePowder(2).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimePowder(3).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Quick Lime Powder</h4>
+                    <h4 className="mt-tilte m-t0">Calcined/Quick Lime</h4>
 
                     <NavLink
                       to={route.Products.QuickLimePowder}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -139,37 +321,22 @@ function HydratedLimePowder() {
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage
-                            src="images/Products/QuickLimeStone.jpg"
+                            src="images/products/QuickLimeStone.jpg"
                             alt=""
                           />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimeStone(2).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimeStone(3).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
+                       
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Quick Lime Stone</h4>
+                    <h4 className="mt-tilte m-t0">  Lime Stone</h4>
 
                     <NavLink
                       to={route.Products.QuickLimeStone}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -186,37 +353,23 @@ function HydratedLimePowder() {
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage
-                            src="images/Products/QuickLimeLumps.jpg"
+                       
+                             src="images/products/QuickLimePowder.jpg"
                             alt=""
                           />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimeLumps(2).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/QuickLimeLumps(3).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
+                     
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Quick Lime Lumps</h4>
+                    <h4 className="mt-tilte m-t0">Calcined/Quick Lime Powder</h4>
 
                     <NavLink
                       to={route.Products.QuickLimeLumps}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -230,9 +383,9 @@ function HydratedLimePowder() {
       <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -260,11 +413,11 @@ function HydratedLimePowder() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

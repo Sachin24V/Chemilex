@@ -107,56 +107,38 @@
     ],
     "services": [
       {
-        "image1": "images/Products/HydratedLimePowder(2).jpg",
-        "image2": "images/Products/QuickLimeStone(3).jpg",
-        "image3": "images/Products/QuickLimeLumps(2).jpg",
-        "image4": "images/Products/QuickLimePowder(2).jpg",
-        "image_preview1": "images/Products/HydratedLimePowder(2).jpg",
-        "image_preview2": "images/Products/QuickLimeStone(3).jpg",
-        "image_preview3": "images/Products/QuickLimeLumps(2).jpg",
-        "image_preview4": "images/Products/QuickLimePowder(2).jpg",
+        "image1": "images/products/HydratedLimePowder(2).jpg",
+
+        "image_preview1": "images/products/HydratedLimePowder(2).jpg",
 
         "title": "Lime Products",
 
         "path": "/product/limeproduct"
       },
       {
-        "image1": "images/Products/IndonesianMETCoke.jpg",
-        "image2": "images/Products/IndianLAMCoke.jpg",
-        "image3": "images/Products/CoalImportedIndianCoal.jpg",
-        "image4": "images/Products/CoalImportedIndianCoal(3).jpg",
-        "image_preview1": "images/Products/IndonesianMETCoke.jpg",
-        "image_preview2": " images/Products/IndianLAMCoke.jpg",
-        "image_preview3": "images/Products/CoalImportedIndianCoal.jpg",
-        "image_preview4": "images/Products/CoalImportedIndianCoal(3).jpg",
-        "title": "Imported & Indian Coal & Cokes  ",
+        "image1": "images/products/IndonesianMETCoke.jpg",
+         
+        "image_preview1": "images/products/IndonesianMETCoke.jpg",
+      
+        "title": " Indian & Imported Coal & Coke  ",
 
         "path": "/product/ImportedIndianCoalCokes"
       },
       {
-        "image1": "images/Products/ChromeConcentrate(2).jpg",
-        "image2": "images/Products/Gypsum.jpg",
-        "image3": "images/Products/QuickLimeLumps(2).jpg",
-        "image4": "images/Products/ChromeConcentrate.jpg",
+        "image1": "images/products/ChromeConcentrate(2).jpg",
+         
 
-        "image_preview1": "images/Products/ChromeConcentrate(2).jpg",
-        "image_preview2": "images/Products/Gypsum.jpg",
-        "image_preview3": "images/Products/QuickLimeLumps(2).jpg",
-        "image_preview4": "images/Products/ChromeConcentrate.jpg",
-
+        "image_preview1": "images/products/ChromeConcentrate(2).jpg",
+     
         "title": "Other Mining Products ",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/OtherMiningProducts"
       },
       {
-        "image1": "images/Products/RailTransport.jpg",
-        "image2": "images/Products/RoadTransport.jpg",
-        "image3": "images/Products/RailTransport(2).jpg",
-        "image4": "images/Products/28.jpg",
-        "image_preview1": "images/Products/RailTransport.jpg",
-        "image_preview2": "images/Products/RoadTransport.jpg",
-        "image_preview3": "images/Products/RailTransport(2).jpg",
-        "image_preview4": "images/Products/28.jpg",
+        "image1": "images/products/RailTransport.jpg",
+      
+        "image_preview1": "images/products/RailTransport.jpg",
+     
         "title": "Logistics & Transport     ",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/LogisticTransport"
@@ -164,35 +146,33 @@
     ],
     "SubProductsCoalCokes": [
       {
-        "image1": "images/Products/CoalImportedIndianCoal.jpg",
-        "image2": "images/Products/CoalImportedIndianCoal(2).jpg",
-        "image3": "images/Products/CoalImportedIndianCoal(3).jpg",
-        "image_preview": "images/Products/RailTransport.jpg",
-        "title": "Coal-Imported/Indian Coal",
+        "image1": "images/products/CoalImportedIndianCoal.jpg",
+     
+        "image_preview": "images/products/RailTransport.jpg",
+        "title": "  Indian & Imported Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndianImportedCoal"
       },
       {
-        "image1": "images/Products/ChinaMETCoke.jpg",
-        "image2": "images/Products/IndonesianMETCoke.jpg",
-        "image3": "images/Products/IndianLAMCoke.jpg",
-        "image_preview": "images/Products/RailTransport.jpg",
-        "title": "Coke-Imported/Indian Coke",
+        "image1": "images/products/ChinaMETCoke.jpg",
+    
+        "image_preview": "images/products/RailTransport.jpg",
+        "title": "  Indian & Imported  Coke",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndianImportedCoke"
       }
     ],
     "SubProductsCoal": [
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image": "images/products/Our Products .png",
+        "image_preview": "images/products/Our Products .png",
         "title": "Imported Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ImportedCoal"
       },
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image": "images/products/indian coal 1 to 17  grade.jpg",
+        "image_preview": "images/products/indian coal 1 to 17  grade.jpg",
         "title": "Indian Coal-Grade 1 to Grade 17",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndianCoalGrade"
@@ -200,84 +180,77 @@
     ],
     "LimeProducts": [
       {
-        "image1": "images/Products/HydratedLimePowder(2).jpg",
-        "image2": "images/Products/HydratedLimePowder(3).jpg",
-        "image3": "images/Products/HydratedLimePowder(4).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
-        "title": "Hydrated Lime Powder",
-        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/HydratedLimePowder"
-      },
-      {
-        "image1": "images/Products/QuickLimePowder.jpg",
-        "image2": "images/Products/QuickLimePowder(2).jpg",
-        "image3": "images/Products/QuickLimePowder(3).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
-        "title": "Quick Lime Powder",
-        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/QuickLimePowder"
-      },
-      {
-        "image1": "images/Products/QuickLimeStone.jpg",
-        "image2": "images/Products/QuickLimeStone(2).jpg",
-        "image3": "images/Products/QuickLimeStone(3).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
-        "title": "Quick Lime Stone",
+        "image1": "images/products/QuickLimeStone.jpg",
+     
+        "image_preview": "images/products/QuickLimeStone.jpg",
+        "title": " Lime Stone",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/QuickLimeStone"
       },
       {
-        "image1": "images/Products/QuickLimeLumps.jpg",
-        "image2": "images/Products/QuickLimeLumps(2).jpg",
-        "image3": "images/Products/QuickLimeLumps(3).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
-        "title": "Quick Lime Lumps",
+        "image1": "images/products/HydratedLimePowder(2).jpg",
+    
+        "image_preview": "images/products/HydratedLimePowder(2).jpg",
+        "title": "Hydrated/Calcined Lime",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/HydratedLimePowder"
+      },
+      {
+        "image1": "images/products/QuickLimeLumps.jpg",
+  
+        "image_preview": "images/products/QuickLimeLumps.jpg",
+        "title": "Quick Lime ",
+        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        "path": "/product/QuickLimePowder"
+      },
+
+      {
+       
+        "image1": "images/products/QuickLimePowder.jpg",
+  
+        "image_preview": "images/products/QuickLimePowder.jpg",
+        "title": "Quick Lime Powder",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/QuickLimeLumps"
       }
     ],
     "SubProductsCoke": [
       {
-        "image1": "images/Products/IndonesianMETCoke.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/IndonesianMETCoke.jpg",
+     
+        "image_preview": "images/products/IndonesianMETCoke.jpg",
         "title": "Indonesian MET Coke",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndonesianMetCoke"
       },
       {
-        "image1": "images/Products/ChinaMETCoke.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3":  "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/ChinaMETCoke.jpg",
+       
+        "image_preview": "images/products/ChinaMETCoke.jpg",
         "title": "China MET Coke",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ChinaMetCoke"
       },
       {
-        "image1": "images/our-work/pic1.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/Colombian MET COKE.jpg",
+   
+        "image_preview": "images/products/Colombian MET COKE.jpg",
         "title": "Colombian MET Coke",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ColombianMetCoke"
       },
       {
-        "image1":  "images/our-work/pic1.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/Colombian (ULP).png",
+    
+        "image_preview": "images/products/Colombian (ULP).png",
         "title": "Colombian (ULP)",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ColombianULP"
       },
       {
-        "image1": "images/Products/IndianLAMCoke.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/IndianLAMCoke.jpg",
+     
+        "image_preview": "images/products/IndianLAMCoke.jpg",
         "title": "Indian LAM Coke",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndianLAMCoke"
@@ -285,36 +258,36 @@
     ],
     "ImportedCoalSubProducts": [
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
-        "title": "Prime Hard Cooking Coal",
+        "image": "images/products/Prime Hard Cooking Coal.jpg",
+        "image_preview": "images/products/Prime Hard Cooking Coal.jpg",
+        "title": "Prime Hard Coking Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/PrimeHardCookingCoal"
       },
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image": "images/products/indonesian steam coal.png",
+        "image_preview": "images/products/indonesian steam coal.png",
         "title": "Indonesian Steam Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/IndonesianSteamCoal"
       },
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+       "image": "images/products/South African Steam Coal.jpg",
+        "image_preview": "images/products/South African Steam Coal.jpg",
         "title": "South African Steam Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/SouthAfricanSteamCoal"
       },
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image": "images/products/PCI Coal.jpg",
+        "image_preview": "images/products/PCI Coal.jpg",
         "title": "PCI Coal ",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/PCI-Coal"
       },
       {
-        "image": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image": "images/products/Anthracite Coal.jpg",
+        "image_preview": "images/products/Anthracite Coal.jpg",
         "title": "Anthracite Coal",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/AnthraciteCoal"
@@ -322,28 +295,25 @@
     ],
     "OtherMiningProductsr": [
       {
-        "image1": "images/Products/ChromeConcentrate.jpg",
-        "image2": "images/Products/ChromeConcentrate(2).jpg",
-        "image3": "images/Products/ChromeConcentrate(3).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/ChromeConcentrate.jpg",
+       
+        "image_preview": "images/products/ChromeConcentrate.jpg",
         "title": "Chrome Concentrate",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ChromeConcentrate"
       },
       {
         "image1": "images/Products/Gypsum.jpg",
-        "image2": "images/Products/Gypsum(2).jpg",
-        "image3": "images/Products/Gypsum(3).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+       
+        "image_preview": "images/products/Gypsum.jpg",
         "title": "Gypsum",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/Gypsum"
       },
       {
-        "image1": "images/our-work/pic1.jpg",
-        "image2": "images/our-work/pic1.jpg",
-        "image3": "images/our-work/pic1.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/Imported Magneses Ore.png",
+        
+        "image_preview": "images/Products/Imported Magneses Ore.png",
         "title": "Imported mangenese Ore(East Africa)",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ImportedMagnesesOre"
@@ -351,19 +321,19 @@
     ],
     "LogisticTransport": [
       {
-        "image1": "images/Products/RoadTransport.jpg",
-        "image2": "images/Products/28.jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/RoadTransport.jpg",
+   
+        "image_preview": "images/products/RoadTransport.jpg",
         "title": "Road Transport",
-        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+        
         "path": "/product/RoadTransport"
       },
       {
-        "image1": "images/Products/RailTransport.jpg",
-        "image2": "images/Products/RailTransport(2).jpg",
-        "image_preview": "images/our-work/pic1.jpg",
+        "image1": "images/products/RailTransport.jpg",
+       
+        "image_preview": "images/products/RailTransport.jpg",
         "title": "Rail Transport",
-        "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+       
         "path": "/product/RailTransport"
       }
     ]

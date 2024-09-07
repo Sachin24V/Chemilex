@@ -10,6 +10,8 @@ import { NavLink } from "react-router-dom";
  
  
 import SectionSlider1 from "../../sections/home/home1/section-slider1";
+import AboutSlider from "../../sections/home/home1/AboutSlider";
+import SectionSlider2 from "../../sections/home/home2/section-slider2";
 
 function AboutUsPage() {
   useEffect(() => {
@@ -19,7 +21,8 @@ function AboutUsPage() {
     <>
 
     {/* about slider */}
-    <SectionSlider1 />
+    {/* <AboutSlider /> */}
+    <AboutSlider/>
 
       {/* Our Mission */}
       <SectionHome3WhatWeDo />
@@ -28,7 +31,8 @@ function AboutUsPage() {
       <SectionHome2Video />
 
       {/* Why Choose us */}
-      <SectionHome3WhyChooseUs />
+      {/* <SectionHome3WhyChooseUs /> */}
+      <div className="gap"></div>
       {/* Our Services */}
       <div className="section-full bg-change-section overlay-wraper p-t80 p-b50">
         <div className="overlay-main   opacity-09" />
@@ -92,11 +96,11 @@ function AboutUsPage() {
                         className="mt-tilte  m-b15 text-white"
                       >
                         {" "}
-                        Imported & Indian Coal & Cokes 
+                        Imported & Indian Coal & Coke
                       </NavLink>
                     </h4>
                     <p className="text-white">
-                      Imported and Indian Coal & Cokes for Industrial Use
+                      Imported and Indian Coal & Coke for Industrial Use
                     </p>
                   </div>
                 </div>

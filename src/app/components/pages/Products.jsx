@@ -52,7 +52,7 @@ function Products() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Our Services & Supplies</h2>
+            <h2 data-title="Supplies & Services">Our Supplies & Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -69,21 +69,6 @@ function Products() {
                           <div className="item">
                             <div className="aon-thum-bx">
                               <FastImage src={_item.image1} alt="" />
-                            </div>
-                          </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image2} alt="" />
-                            </div>
-                          </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image3} alt="" />
-                            </div>
-                          </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image4} alt="" />
                             </div>
                           </div>
                         </div>

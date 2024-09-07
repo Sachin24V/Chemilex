@@ -13,8 +13,8 @@ function PCICoal() {
   return (
     <>
       {/* Service Detail */}
-      <div className="section-full  p-t80 p-b50  ">
-        <div className="container  bg-white ">
+      <div className="section-full p-t80 p-b50 ">
+        <div className="container bg-white ">
           <div className="section-content ">
             <div className="row">
               <div className="col-lg-6 col-md-12">
@@ -26,11 +26,10 @@ function PCICoal() {
                     high-quality coal used primarily in steelmaking processes.
                     It is injected directly into the blast furnace to replace a
                     portion of the coke required for ironmaking, reducing
-                    production costs and increasing efficiency. At Chemilex
-                    Industries, our PCI Coal is sourced from trusted suppliers
-                    and processed to ensure low impurities and high energy
-                    content, providing optimal performance in metallurgical
-                    applications.
+                    production costs and increasing efficiency. The PCI Coal is
+                    sourced from trusted suppliers and processed to ensure low
+                    impurities and high energy content, providing optimal
+                    performance in metallurgical applications.
                   </p>
                   <p>
                     PCI Coal is essential for enhancing the efficiency of steel
@@ -46,19 +45,10 @@ function PCICoal() {
                 <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                   <div className="item">
                     <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic1.jpg" alt="" />
+                      <FastImage src="images/products/PCI Coal.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic2.jpg" alt="" />
-                    </div>
-                  </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic3.jpg" alt="" />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -69,7 +59,7 @@ function PCICoal() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Other Services</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -83,29 +73,20 @@ function PCICoal() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/products/Prime Hard Cooking Coal.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
-                <div className="mt-icon-box-wraper  p-a30 left bg-white">
+                <div className="mt-icon-box-wraper p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Prime Hard Cooking Coal</h4>
+                    <h4 className="mt-tilte m-t0">Prime Hard Coking Coal</h4>
 
                     <NavLink
                       to={route.Products.PrimeHardCookingCoal}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -120,29 +101,21 @@ function PCICoal() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/products/indonesian steam coal.png" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                     
+                       
                     </div>
                   </NavLink>
                 </div>
-                <div className="mt-icon-box-wraper  p-a30 left bg-white">
+                <div className="mt-icon-box-wraper p-a30 left bg-white">
                   <div className="icon-content">
                     <h4 className="mt-tilte m-t0">Indonesian Steam Coal</h4>
 
                     <NavLink
                       to={route.Products.IndonesianSteamCoal}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -157,29 +130,20 @@ function PCICoal() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/products/South African Steam Coal.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                       
                     </div>
                   </NavLink>
                 </div>
-                <div className="mt-icon-box-wraper  p-a30 left bg-white">
+                <div className="mt-icon-box-wraper p-a30 left bg-white">
                   <div className="icon-content">
                     <h4 className="mt-tilte m-t0">South African Steam Coal</h4>
 
                     <NavLink
                       to={route.Products.SouthAfricanSteamCoal}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -194,29 +158,20 @@ function PCICoal() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/products/Anthracite Coal.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
-                <div className="mt-icon-box-wraper  p-a30 left bg-white">
+                <div className="mt-icon-box-wraper p-a30 left bg-white">
                   <div className="icon-content">
                     <h4 className="mt-tilte m-t0">Anthracite Coal</h4>
 
                     <NavLink
                       to={route.Products.AnthraciteCoal}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -230,9 +185,9 @@ function PCICoal() {
       <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -260,11 +215,11 @@ function PCICoal() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

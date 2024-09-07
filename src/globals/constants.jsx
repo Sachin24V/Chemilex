@@ -60,10 +60,10 @@ Products:{
     LogisticTransport:"/product/LogisticTransport",
     RoadTransport:"/product/RoadTransport",
     RailTransport:"/product/RailTransport",
-    HydratedLimePowder:"/product/HydratedLimePowder",
-    QuickLimePowder:"/product/QuickLimePowder",
-    QuickLimeStone:"/product/QuickLimeStone",
-    QuickLimeLumps:"/product/QuickLimeLumps",
+    HydratedLimePowder:"/product/Hydrated-CalciendLime",
+    QuickLimePowder:"/product/QuickLime",
+    QuickLimeStone:"/product/LimeStone",
+    QuickLimeLumps:"/product/QuickLimePowder",
 
 },
 Career:{

@@ -55,7 +55,7 @@ function AppLayout(props) {
                 }
 
                 {/* Scroll Top Button */}
-                <button className="scroltop"><span className="fa fa-space-shuttle relative" id="btn-vibrate" /></button>
+                {/* <button className="scroltop"><span className="fa fa-space-shuttle relative" id="btn-vibrate" /></button> */}
             </div>
         </>
     )

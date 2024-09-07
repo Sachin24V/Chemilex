@@ -10,7 +10,15 @@ function ContactUs1Page() {
             <div className="mt-box">
               <div className="gmap-outline">
                 <div className="google-map" style={{ width: "100%" }}>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113865.66675212944!2d73.38611052305636!3d26.89390631919798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396a7ef6fb42618b%3A0x693a58b44deb50a0!2sKhasra%20No-172/3,%20Manakpur%20Industrial%20Area,%20Post%20Basni%20Hari%20Singh%20Teh-%20Bhopalgarh,%20Jodhpur,%20Rajasthan-342901!5e0!3m2!1sen!2sin!4v1725003633835!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.2680239810283!2d73.51806766802699!3d26.866118466351324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396a7fc209085ec5%3A0xde72d3e585856fd8!2sChemilex%20industries!5e0!3m2!1sen!2sin!4v1725429882551!5m2!1sen!2sin"
+                    width="600"
+                    height="450"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+
 
 
                 </div>
@@ -22,7 +30,7 @@ function ContactUs1Page() {
       <div className="section-full p-t80">
         <div className="container">
           <div className="section-head">
-            <h2>Contact Detail </h2>
+            <h2>Contact Us </h2>
             <div className="mt-separator-outer m-b30">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -69,7 +77,6 @@ function ContactUs1Page() {
                     <a href="mailto:info@chemilex.com">
                       <p>info@chemilex.com</p>
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -77,7 +84,7 @@ function ContactUs1Page() {
           </div>
           <div className="section-content m-b30">
             <div className="section-head">
-              <h2>Address </h2>
+              <h2>Our Locations </h2>
               <div className="mt-separator-outer m-b30">
                 <div className="mt-separator site-bg-primary" />
               </div>
@@ -93,8 +100,11 @@ function ContactUs1Page() {
                     <a href>
                       <p>
                         {" "}
-                        Khasra No-172/3, Manakpur Industrial Area, Post Basni
-                        Hari Singh Teh- Bhopalgarh, Jodhpur, Rajasthan-342901
+                        Khasra No-172/3, Manakpur Industrial Area,
+                        <br />
+                        Post Basni Hari Singh, Tehsil Bhopalgarh,
+                        <br />
+                        Jodhpur, Rajasthan - 342901, India
                       </p>
                     </a>
                   </div>
@@ -110,14 +120,16 @@ function ContactUs1Page() {
                     <a href>
                       <p>
                         {" "}
-                        Office No-12, Ashwamegh Palace Opp Shreenathji Gardania
-                        Kosad-Chorasi, 394107 Dist. Surat, Gujarat.
+                        Office No-12, Ashwamegh Palace,
+                        <br />
+                        Opp-Shreenathji Gardenia, Kosad,
+                        <br />
+                        Surat, Gujarat - 394107, India
                       </p>
                     </a>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
@@ -141,7 +153,7 @@ function ContactUs1Page() {
                   action="form-handler.php"
                 >
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="form-group">
                         <input
                           name="username"
@@ -152,7 +164,7 @@ function ContactUs1Page() {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="form-group">
                         <input
                           name="email"
@@ -160,6 +172,17 @@ function ContactUs1Page() {
                           className="form-control"
                           required
                           placeholder="Email"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-12">
+                      <div className="form-group">
+                        <input
+                          name="number"
+                          type="number"
+                          className="form-control"
+                          required
+                          placeholder="Number"
                         />
                       </div>
                     </div>

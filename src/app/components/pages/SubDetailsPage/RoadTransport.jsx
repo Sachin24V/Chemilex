@@ -34,19 +34,10 @@ function RoadTransport() {
                                 <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                                     <div className="item">
                                         <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic1.jpg" alt="" />
+                                            <FastImage src="images/products/RoadTransport.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="item">
-                                        <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic2.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic3.jpg" alt="" />
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -57,7 +48,7 @@ function RoadTransport() {
                 <div className="container">
                     {/* TITLE START*/}
                     <div className="section-head text-center">
-                        <h2 data-title="Services">Other Services</h2>
+                        <h2 data-title="Services">Services </h2>
                         <div className="mt-separator-outer">
                             <div className="mt-separator site-bg-primary" />
                         </div>
@@ -67,12 +58,12 @@ function RoadTransport() {
                         <div className="col-lg-4 col-md-6">
                             <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
                                 <div className="mt-media">
-                                    <NavLink to={route.Products.RailTransport}><FastImage src="images/gallery/pic5.jpg" alt="" /></NavLink>
+                                    <NavLink to={route.Products.RailTransport}><FastImage src="images/products/RailTransport.jpg" alt="" /></NavLink>
                                 </div>
                                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                                     <div className="icon-content">
                                         <h4 className="mt-tilte m-t0">Rail Transport</h4>
-                                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet.</p>
+                                        
                                         <NavLink to={route.Products.RailTransport} className="site-button">Read More</NavLink>
                                     </div>
                                 </div>
@@ -86,9 +77,9 @@ function RoadTransport() {
             <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -116,11 +107,11 @@ function RoadTransport() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

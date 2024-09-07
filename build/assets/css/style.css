@@ -4255,7 +4255,7 @@ ol.list-num-count.list-outline-none > li:before {
   right: 100%;
   width: 100%;
   opacity: 1;
-  background-color: #ff5e14;
+  background-color:#43a5f1;
 }
 
 .site-button-link:hover:after {
@@ -5809,6 +5809,7 @@ ol.list-num-count.list-outline-none > li:before {
   overflow: hidden;
   display: block;
   border-radius: 10px;
+  height: 595px;
 }
 
 .mt-img-effect img {
@@ -7135,7 +7136,7 @@ input[type="radio"]:checked + label:before {
   position: relative;
   padding: 9px 10px 9px 15px;
   margin-bottom: 0;
-  line-height: 45px;
+  line-height: 32px;
 }
 
 .widget_archive ul li span.badge {
@@ -7572,7 +7573,7 @@ input[type="radio"]:checked + label:before {
   }
 
   .site-footer .widget_gallery li {
-    width: 33.333%;
+    width: 13.333%;
   }
 }
 
@@ -7585,7 +7586,7 @@ input[type="radio"]:checked + label:before {
     width: 16.5%;
   }
   .site-footer .widget_gallery li {
-    width: 33.333%;
+    width: 8.33%;
   }
 }
 
@@ -7594,12 +7595,12 @@ input[type="radio"]:checked + label:before {
     width: 24.33%;
   }
   .site-footer .widget_gallery li {
-    width: 24.333%;
+    width: 9.333%;
   }
 }
 @media only screen and (max-width: 360px) {
   .site-footer .widget_gallery li {
-    width: 33.333%;
+    width: 12.333%;
   }
   .widget_gallery li {
     width: 33.33%;
@@ -9568,7 +9569,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   display: flex;
   justify-content: center;
  
-  margin-top: 20px;
+   
 }
 .header-info > ul li {
   display: table-cell;
@@ -9636,7 +9637,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .header-botton .header-nav .nav {
   float: none;
   flex-direction: inherit;
- margin-left: 145px;
+ justify-content: center;
 }
 .header-botton .header-nav .nav > li > a {
   padding: 20px 12px;
@@ -10172,7 +10173,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .owl-carousel .owl-item img {
   transform-style: inherit;
+ 
 }
+ 
 
 /*____OWL SLIDER BUTTON____*/
 .owl-carousel .owl-nav button.owl-next,
@@ -14822,4 +14825,12 @@ ol.commentlist li::after {
 
 .myanchore{
   padding-left: 140px;
+}
+
+.fullscreen-container {
+  height: 650px !important;
+}
+.fullscreenbanner
+{
+  height: 650px !important;
 }

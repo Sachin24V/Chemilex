@@ -147,7 +147,7 @@ function SectionSlider1() {
                       }}
                     ></div>
                     {/* LAYER NR. 3 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-Title   tp-resizeme"
                       id="slide-200-layer-3"
                       data-x="['left','left','left','left']"
@@ -179,9 +179,9 @@ function SectionSlider1() {
                     >
                       <span className="site-text-primary"> World Class</span>{" "}
                       Logistics{" "}
-                    </div>
+                    </div> */}
                     {/* LAYER NR. 4 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-SubTitle  "
                       id="slide-200-layer-4"
                       data-x="['left','left','left','left']"
@@ -207,9 +207,9 @@ function SectionSlider1() {
                     >
                       Chemilex Industries Streamlines Supply Chains with
                       Advanced Logistics for Efficient Mineral Delivery
-                    </div>
+                    </div> */}
                     {/* LAYER NR. 5 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-Button rev-btn "
                       id="slide-200-layer-5"
                       data-x="['left','left','left','left']"
@@ -235,7 +235,7 @@ function SectionSlider1() {
                       <NavLink to={route.pages.ABOUT} className="site-button">
                         READ MORE
                       </NavLink>
-                    </div>
+                    </div> */}
                   </li>
                   {/* SLIDE  */}
                   <li
@@ -352,7 +352,7 @@ function SectionSlider1() {
                       }}
                     ></div>
                     {/* LAYER NR. 3 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-Title   tp-resizeme"
                       id="slide-300-layer-3"
                       data-x="['left','left','left','left']"
@@ -384,9 +384,9 @@ function SectionSlider1() {
                     >
                       <span className="site-text-primary"> Fueling </span>{" "}
                       Growth
-                    </div>
+                    </div> */}
                     {/* LAYER NR. 4 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-SubTitle  "
                       id="slide-300-layer-4"
                       data-x="['left','left','left','left']"
@@ -413,9 +413,9 @@ function SectionSlider1() {
                       Chemilex Industries Taps into Rajasthan's Premier
                       Limestone Reserves, Pioneering High-Quality Mineral
                       Extraction and Processing
-                    </div>
+                    </div> */}
                     {/* LAYER NR. 5 */}
-                    <div
+                    {/* <div
                       className="tp-caption BigBold-Button rev-btn "
                       id="slide-300-layer-5"
                       data-x="['left','left','left','left']"
@@ -441,13 +441,13 @@ function SectionSlider1() {
                       <NavLink to={route.pages.ABOUT} className="site-button">
                         READ MORE
                       </NavLink>{" "}
-                    </div>
+                    </div> */}
                   </li>
                 </ul>
-                <div
+                {/* <div
                   className="tp-bannertimer tp-bottom"
                   style={{ visibility: "hidden !important" }}
-                />
+                /> */}
               </div>
             </div>
             {/* END REVOLUTION SLIDER */}

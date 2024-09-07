@@ -52,7 +52,7 @@ function ImportedCoal() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Our Services</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -71,16 +71,7 @@ function ImportedCoal() {
                               <FastImage src={_item.image} alt="" />
                             </div>
                           </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image} alt="" />
-                            </div>
-                          </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image} alt="" />
-                            </div>
-                          </div>
+                          
                         </div>
                         <div className="overlay-bx">
                           <div className="overlay-icon">

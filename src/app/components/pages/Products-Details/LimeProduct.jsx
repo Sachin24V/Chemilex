@@ -51,7 +51,7 @@ function LimeProduct() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Our Products</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -70,16 +70,7 @@ function LimeProduct() {
                               <FastImage src={_item.image1} alt="" />
                             </div>
                           </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image2} alt="" />
-                            </div>
-                          </div>
-                          <div className="item">
-                            <div className="aon-thum-bx">
-                              <FastImage src={_item.image3} alt="" />
-                            </div>
-                          </div>
+                          
                         </div>
                         <div className="overlay-bx">
                           <div className="overlay-icon">

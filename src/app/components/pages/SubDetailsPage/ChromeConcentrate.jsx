@@ -31,7 +31,7 @@ function ChromeConcentrate() {
                     industries that require strong, corrosion-resistant steel.
                   </p>
                   <p>
-                    At Chemilex Industries, our Chrome Concentrate is sourced
+                  The Chrome Concentrate is sourced
                     from the best mining regions and processed to meet stringent
                     quality standards. Its high chromium-to-iron ratio ensures
                     optimal performance in smelting processes, making it an
@@ -46,19 +46,10 @@ function ChromeConcentrate() {
                 <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                   <div className="item">
                     <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic1.jpg" alt="" />
+                      <FastImage src="images/products/ChromeConcentrate.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic2.jpg" alt="" />
-                    </div>
-                  </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage src="images/our-work/pic3.jpg" alt="" />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -69,7 +60,7 @@ function ChromeConcentrate() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Other Services</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -83,19 +74,10 @@ function ChromeConcentrate() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/Products/Gypsum.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
@@ -117,19 +99,10 @@ function ChromeConcentrate() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/Products/Imported Magneses Ore.png" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
@@ -141,7 +114,7 @@ function ChromeConcentrate() {
 
                     <NavLink
                       to={route.Products.ImportedMagnesesOre}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -155,9 +128,9 @@ function ChromeConcentrate() {
       <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -185,11 +158,11 @@ function ChromeConcentrate() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

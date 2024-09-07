@@ -12,7 +12,7 @@ function SectionHome1Testimonials() {
       <div className="container">
         {/* TITLE START */}
         <div className="section-head text-center">
-          <h2 data-title="Testimonials">Our Client Say</h2>
+          <h2 data-title=" ">Our Client Say</h2>
           <div className="mt-separator-outer">
             <div className="mt-separator site-bg-primary" />
           </div>
@@ -25,7 +25,7 @@ function SectionHome1Testimonials() {
                 <div className="testimonial-detail">
                   <div className="testimonial-pic shadow">
                     <FastImage
-                      src="images/testimonials/pic1.jpg"
+                      src="images/testimonials/3.png"
                       width={100}
                       height={100}
                       alt=""
@@ -51,7 +51,7 @@ function SectionHome1Testimonials() {
                 <div className="testimonial-detail ">
                   <div className="testimonial-pic shadow">
                     <FastImage
-                      src="images/testimonials/pic2.jpg"
+                      src="images/testimonials/5.png"
                       width={100}
                       height={100}
                       alt=""
@@ -76,7 +76,7 @@ function SectionHome1Testimonials() {
                 <div className="testimonial-detail">
                   <div className="testimonial-pic shadow">
                     <FastImage
-                      src="images/testimonials/pic3.jpg"
+                      src="images/testimonials/4.png"
                       width={100}
                       height={100}
                       alt=""

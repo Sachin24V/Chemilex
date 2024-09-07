@@ -25,7 +25,7 @@ function ImportedMagnesesOre() {
                                     <p>
                                     Imported Manganese Ore is a high-quality mineral essential for various industrial applications, particularly in steel production. Manganese is a crucial alloying element that enhances the strength, toughness, and hardness of steel, making it indispensable for manufacturing construction materials, automotive components, and machinery.
                                     </p>
-                                    <p>At Chemilex Industries, our Imported Manganese Ore is sourced from the best global suppliers, ensuring high purity and consistent quality. Its excellent metallurgical properties make it a preferred choice for steelmakers looking to produce superior-grade steel. In addition to steel production, our manganese ore is also used in the production of batteries, chemicals, and aluminum alloys, demonstrating its versatility and value across different sectors.
+                                    <p>An Imported Manganese Ore is sourced from the best global suppliers, ensuring high purity and consistent quality. Its excellent metallurgical properties make it a preferred choice for steelmakers looking to produce superior-grade steel. In addition to steel production, our manganese ore is also used in the production of batteries, chemicals, and aluminum alloys, demonstrating its versatility and value across different sectors.
                                     </p>
                                 </div>
                             </div>
@@ -33,19 +33,10 @@ function ImportedMagnesesOre() {
                                 <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                                     <div className="item">
                                         <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic1.jpg" alt="" />
+                                            <FastImage src="images/Products/Imported Magneses Ore.png" alt="" />
                                         </div>
                                     </div>
-                                    <div className="item">
-                                        <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic2.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="aon-thum-bx">
-                                            <FastImage src="images/our-work/pic3.jpg" alt="" />
-                                        </div>
-                                    </div>
+                                     
                                 </div>
                             </div>
                         </div>
@@ -56,7 +47,7 @@ function ImportedMagnesesOre() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Other Services</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -70,19 +61,10 @@ function ImportedMagnesesOre() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/Products/Gypsum.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                       
                     </div>
                   </NavLink>
                 </div>
@@ -92,7 +74,7 @@ function ImportedMagnesesOre() {
 
                     <NavLink
                       to={route.Products.Gypsum}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -107,19 +89,10 @@ function ImportedMagnesesOre() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
+                          <FastImage src="images/products/ChromeConcentrate.jpg" alt="" />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage src="images/gallery/pic5.jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
@@ -129,7 +102,7 @@ function ImportedMagnesesOre() {
 
                     <NavLink
                       to={route.Products.ChromeConcentrate}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -145,9 +118,9 @@ function ImportedMagnesesOre() {
       <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -175,11 +148,11 @@ function ImportedMagnesesOre() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

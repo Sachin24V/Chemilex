@@ -1,15 +1,67 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // import FastImage from "../../../globals/elements/fastimg";
 // import { loadScript, route } from "../../../globals/constants";
 import { NavLink } from "react-router-dom";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
+import Paper from "@mui/material/Paper";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
 
+import TableRow from "@mui/material/TableRow";
+
+const columns = [
+  { id: "SPECIFICATION", label: "SPECIFICATION", minWidth: 170 },
+  { id: "700", label: "700", minWidth: 100 },
+  { id: "500", label: "500", minWidth: 100 },
+  { id: "300", label: "300", minWidth: 100 },
+  { id: "250", label: "250", minWidth: 100 },
+  { id: "200", label: "200", minWidth: 100 },
+];
+
+function createData(SPECIFICATION, col1, col2, col3, col4, col5) {
+  return {
+    SPECIFICATION,
+    700: col1,
+    500: col2,
+    300: col3,
+    250: col4,
+    200: col5,
+  };
+}
+
+const rows = [
+  createData("TOTAL CAO", "90%", "88%", "86%", "85%", "82%"),
+  createData("%ACID INSOLUBLE (MAX.)", 0.7, 1, 1.2, 1.25, 1.25),
+
+  createData(
+    "R2 O3",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces",
+    "IN Traces"
+  ),
+  createData("%MAGNESIA AS MGO", 1.2, 1.4, 1.45, 1.5, 1.5),
+  createData("MESH (PASSING)", "99%", "99%", "99%", "99%", "99%"),
+  createData(
+    "SLAKING TEMPERATURE 600ML WATER 150GM SAMPLE",
+    "15 MIN",
+    "15-20 MIN",
+    "15-20 MIN",
+    "	20-25 MIN",
+    "30 MIN"
+  ),
+];
 function QuickLimePowder() {
   useEffect(() => {
     loadScript("js/custom.js");
   });
-
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(10);
   return (
     <>
       {/* Service Detail */}
@@ -19,10 +71,10 @@ function QuickLimePowder() {
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="mt-box">
-                  <h2 className="m-t0">Quick Lime Powder</h2>
+                  <h2 className="m-t0">Calcined/Quick Lime </h2>
 
                   <p>
-                    Our Quick Lime Powder, scientifically known as calcium oxide
+                    Our Calcined/Quick Lime  , scientifically known as calcium oxide
                     (CaO), is a finely ground, high-purity powder produced from
                     premium-quality limestone. Manufactured in our cutting-edge
                     facilities, it undergoes precise calcination processes to
@@ -30,7 +82,7 @@ function QuickLimePowder() {
                     various industrial applications.
                   </p>
                   <p>
-                    Quick Lime Powder is a versatile product with a wide range
+                  Calcined/Quick Lime   is a versatile product with a wide range
                     of uses. It is extensively employed in industries such as
                     steel manufacturing, chemical processing, paper production,
                     construction, and agriculture. It plays a crucial role in
@@ -45,38 +97,84 @@ function QuickLimePowder() {
                   <div className="item">
                     <div className="aon-thum-bx">
                       <FastImage
-                        src="images/Products/QuickLimePowder.jpg"
+                        src="images/products/QuickLimeLumps.jpg"
+                        
                         alt=""
                       />
                     </div>
                   </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage
-                        src="images/Products/QuickLimePowder(2).jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className="item">
-                    <div className="aon-thum-bx">
-                      <FastImage
-                        src="images/Products/QuickLimePowder(3).jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="section-full  p-t80 p-b50  ">
+        <div className="container  bg-white ">
+          <div className="section-content ">
+            <div className="row">
+              <div className="col-12">
+                <Paper sx={{ width: "100%", overflow: "hidden" }}>
+                  <TableContainer sx={{ maxHeight: 440 }}>
+                    <Table stickyHeader aria-label="sticky table">
+                      <TableHead>
+                        <TableRow>
+                          {columns.map((column) => (
+                            <TableCell
+                              key={column.id}
+                              align={column.align}
+                              style={{ minWidth: column.minWidth }}
+                            >
+                              {column.label}
+                            </TableCell>
+                          ))}
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {rows
+                          .slice(
+                            page * rowsPerPage,
+                            page * rowsPerPage + rowsPerPage
+                          )
+                          .map((row) => {
+                            return (
+                              <TableRow
+                                hover
+                                role="checkbox"
+                                tabIndex={-1}
+                                key={row.SPECIFICATION}
+                              >
+                                {columns.map((column) => {
+                                  const value = row[column.id];
+                                  return (
+                                    <TableCell
+                                      key={column.id}
+                                      align={column.align}
+                                    >
+                                      {value}
+                                    </TableCell>
+                                  );
+                                })}
+                              </TableRow>
+                            );
+                          })}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </Paper>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="section-full p-t80 p-b50 bg-gray">
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Other Products</h2>
+            <h2 data-title="Services">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -91,37 +189,22 @@ function QuickLimePowder() {
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage
-                            src="images/Products/HydratedLimePowder(3).jpg"
+                            src="images/products/HydratedLimePowder(2).jpg"
                             alt=""
                           />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/HydratedLimePowder(2).jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                          <FastImage
-                            src="images/Products/HydratedLimePowder.jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
+                     
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Hydrated Lime Powder</h4>
+                    <h4 className="mt-tilte m-t0">Hydrated Lime</h4>
 
                     <NavLink
                       to={route.Products.HydratedLimePowder}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -136,29 +219,23 @@ function QuickLimePowder() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeStone.jpg" alt="" />
+                          <FastImage
+                            src="images/products/QuickLimeStone.jpg"
+                            alt=""
+                          />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeStone(2).jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeStone(3).jpg" alt="" />
-                        </div>
-                      </div>
+                      
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Quick Lime Stone</h4>
+                    <h4 className="mt-tilte m-t0">  Lime Stone</h4>
 
                     <NavLink
                       to={route.Products.QuickLimeStone}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -173,29 +250,23 @@ function QuickLimePowder() {
                     <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                       <div className="item">
                         <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeLumps.jpg" alt="" />
+                          <FastImage
+                            src="images/products/QuickLimePowder.jpg"
+                            alt=""
+                          />
                         </div>
                       </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeLumps(2).jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="aon-thum-bx">
-                        <FastImage src="images/Products/QuickLimeLumps(3).jpg" alt="" />
-                        </div>
-                      </div>
+                       
                     </div>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper  p-a30 left bg-white">
                   <div className="icon-content">
-                    <h4 className="mt-tilte m-t0">Quick Lime Lumps</h4>
+                    <h4 className="mt-tilte m-t0">Calcined/Quick Lime Powder</h4>
 
                     <NavLink
                       to={route.Products.QuickLimeLumps}
-                      className="site-button"
+                     className="site-button-link site-text-primary font-weight-600"
                     >
                       Read More
                     </NavLink>
@@ -209,9 +280,9 @@ function QuickLimePowder() {
       <div className="section-full p-t80 p-b50 bg-white ">
         <div className="container  bg-white ">
           <div className="section-content ">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                {/* Need to help */}
+            <div className="row text-center">
+              {/* <div className="col-lg-6 col-md-12">
+              
                 <div className="mt-box  need-help m-b40">
                   <h2>Need Assistance?</h2>
                   <p className="m-b15">
@@ -239,11 +310,11 @@ function QuickLimePowder() {
                     Contact Us
                   </NavLink>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
+              </div> */}
+              <div className="col-lg-12 col-md-12">
                 {/* Quick Contact */}
                 <div className="widget">
-                  <h2>Quick Contact</h2>
+                  <h2>  Contact Us</h2>
                   <div className="widget-quick-form">
                     <form>
                       <div className="form-group">

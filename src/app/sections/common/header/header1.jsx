@@ -186,7 +186,7 @@ function SectionHeader1() {
             </div>
             {/* MAIN Vav */}
             <div className="header-nav navbar-collapse collapse ">
-              <ul className=" nav navbar-nav">
+              <ul className=" nav navbar-nav"  >
                 <li className="active">
                   <NavLink to={route.INITIAL}>Home </NavLink>
                   {/* <ul className="sub-menu">
@@ -252,7 +252,7 @@ function SectionHeader1() {
                         <li>
                           <NavLink to={route.Products.HydratedLimePowder}>
                       
-                          Hydrated/Calcined Lime
+                          Hydrated Lime
                           </NavLink>
                         </li>
                         <li>
@@ -291,7 +291,7 @@ function SectionHeader1() {
                                   <NavLink
                                     to={route.Products.PrimeHardCookingCoal}
                                   >
-                                    Prime Hard Cooking Coal
+                                    Prime Hard Coking Coal
                                   </NavLink>
                                 </li>
                                 <li>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import XIcon from "@mui/icons-material/X";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function SectionFooter1(props) {
   return (
@@ -36,22 +36,22 @@ function SectionFooter1(props) {
                     your business.
                   </p>
                   {/* <ul>
-                    <li>
-                      <i className="fa fa-phone site-text-primary" />{" "}
-                      <b className="p-lr5 text-uppercase">Mobile Number :</b>
-                      <a href="tell:+912617961531"> +91 99091 07770</a>
-                      <br />
-                      <a className="myanchore" href="tell:+919879879925">+91 98798 79925</a>
-                    </li>
+<li>
+<i className="fa fa-phone site-text-primary" />{" "}
+<b className="p-lr5 text-uppercase">Mobile Number :</b>
+<a href="tell:+912617961531"> +91 99091 07770</a>
+<br />
+<a className="myanchore" href="tell:+919879879925">+91 98798 79925</a>
+</li>
 
-                    <li>
-                      <a href="mailto:info@chemilex.com">
-                        <i className="fa fa-envelope site-text-primary" />{" "}
-                        <b className="p-lr5 text-uppercase">Email Address : </b>
-                        info@chemilex.com
-                      </a>
-                    </li>
-                  </ul> */}
+<li>
+<a href="mailto:info@chemilex.com">
+<i className="fa fa-envelope site-text-primary" />{" "}
+<b className="p-lr5 text-uppercase">Email Address : </b>
+info@chemilex.com
+</a>
+</li>
+</ul> */}
                 </div>
               </div>
               {/* Useful Links */}
@@ -76,16 +76,16 @@ function SectionFooter1(props) {
                       </NavLink>
                     </li>
                     {/* <li>
-                      <NavLink to={route.pages.gallery.GALLERY1}>
-                        Gallery
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.shop.PRODUCTS}>Shop</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to={route.blog.GRID}>Blog</NavLink>
-                    </li> */}
+<NavLink to={route.pages.gallery.GALLERY1}>
+Gallery
+</NavLink>
+</li>
+<li>
+<NavLink to={route.shop.PRODUCTS}>Shop</NavLink>
+</li>
+<li>
+<NavLink to={route.blog.GRID}>Blog</NavLink>
+</li> */}
                   </ul>
                 </div>
               </div>
@@ -112,8 +112,8 @@ function SectionFooter1(props) {
                           <ul>
                             <li className="post-author">
                               Khasra No-172/3, Manakpur Industrial Area, Post
-                              Basni Hari Singh Teh- Bhopalgarh, Jodhpur,
-                              Rajasthan-342901
+                              Basni Hari Singh, Tehsil Bhopalgarh, Jodhpur,
+                              Rajasthan - 342901, India
                             </li>
                           </ul>
                         </div>
@@ -135,8 +135,11 @@ function SectionFooter1(props) {
                         <div className="mt-post-meta">
                           <ul>
                             <li className="post-author">
-                              Office No-12, Ashwamegh Palace,<br /> Opp-Shreenathji
-                              Gardania Kosad, Surat, Gujarat-394107 
+                              Office No-12, Ashwamegh Palace,
+                              <br />
+                              Opp-Shreenathji Gardenia, Kosad,
+                              <br />
+                              Surat, Gujarat - 394107, India
                             </li>
                           </ul>
                         </div>
@@ -146,45 +149,49 @@ function SectionFooter1(props) {
                 </div>
               </div>
               {/* Instagram Feed */}
-              <div className="col-lg-3 col-md-6  ">
+              <div className="col-lg-3 col-md-6 ">
                 <div className="widget widget_newsletter f-news-letter">
-                  <h4 className="widget-title">Contact Detials</h4>
+                  <h4 className="widget-title">Contact Us</h4>
                   <div className="newsletter-bx m-b30">
                     {/* <form role="search" method="post">
-                      <div className="input-group">
-                        <input
-                          name="news-letter"
-                          className="form-control"
-                          placeholder="ENTER YOUR EMAIL"
-                          type="text"
-                        />
-                        <span className="input-group-btn">
-                          <button
-                            type="submit"
-                            className="site-button btn font-weight-600"
-                          >
-                            <i className="fa fa-paper-plane" />
-                          </button>
-                        </span>
-                      </div>
-                    </form> */}
-                      <ul>
-                    <li>
-                      <i className="fa fa-phone site-text-primary" />{" "}
-                      <b className="p-lr5 text-uppercase">Mobile Number :</b>
-                      <a href="tell:+912617961531"> +91 99091 07770</a>
-                      <br />
-                      <a className="myanchore" href="tell:+919879879925">+91 98798 79925</a>
-                    </li>
+<div className="input-group">
+<input
+name="news-letter"
+className="form-control"
+placeholder="ENTER YOUR EMAIL"
+type="text"
+/>
+<span className="input-group-btn">
+<button
+type="submit"
+className="site-button btn font-weight-600"
+>
+<i className="fa fa-paper-plane" />
+</button>
+</span>
+</div>
+</form> */}
+                    <ul>
+                      <li>
+                        <i className="fa fa-phone site-text-primary" />{" "}
+                        <b className="p-lr5 text-uppercase">Mobile Number :</b>
+                        <a href="tell:+912617961531"> +91 99091 07770</a>
+                        <br />
+                        <a className="myanchore" href="tell:+919879879925">
+                          +91 98798 79925
+                        </a>
+                      </li>
 
-                    <li>
-                      <a href="mailto:info@chemilex.com">
-                        <i className="fa fa-envelope site-text-primary" />{" "}
-                        <b className="p-lr5 text-uppercase">Email Address : </b>
-                        info@chemilex.com
-                      </a>
-                    </li>
-                  </ul>
+                      <li>
+                        <a href="mailto:info@chemilex.com">
+                          <i className="fa fa-envelope site-text-primary" />{" "}
+                          <b className="p-lr5 text-uppercase">
+                            Email Address :{" "}
+                          </b>
+                          info@chemilex.com
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
                 <div className="widget widget_gallery mfp-gallery clearfix">
@@ -208,7 +215,6 @@ function SectionFooter1(props) {
                     <li>
                       <NavLink to={route.INITIAL}>
                         <LinkedInIcon />
-                       
                       </NavLink>
                     </li>
                   </ul>
