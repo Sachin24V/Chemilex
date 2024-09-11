@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
-
+import OwlCarousel from 'react-owl-carousel';
 function IndianLAMCoke() {
   useEffect(() => {
     loadScript("js/custom.js");
@@ -42,14 +42,22 @@ function IndianLAMCoke() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
-                <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+              <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                   <div className="item">
                     <div className="aon-thum-bx">
                       <FastImage src="images/products/IndianLAMCoke.jpg" alt="" />
                     </div>
                   </div>
-                  
-                </div>
+                  </OwlCarousel>
+            
               </div>
             </div>
           </div>
@@ -59,7 +67,7 @@ function IndianLAMCoke() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">  Services</h2>
+            <h2 data-title="Supplies">  Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -67,17 +75,26 @@ function IndianLAMCoke() {
           {/* TITLE END*/}
           <div className="row d-flex justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
+             <div className="mt-box bg-white m-b30 mt-service-2">
                 <div className="mt-media">
                   <NavLink to={route.Products.IndonesianMetCoke}>
-                    <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+                  <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage src="images/products/IndonesianMETCoke.jpg" alt="" />
                         </div>
                       </div>
-                      
-                    </div>
+                      </OwlCarousel>
+
+                
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper p-a30 left bg-white">
@@ -95,17 +112,25 @@ function IndianLAMCoke() {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
+             <div className="mt-box bg-white m-b30 mt-service-2">
                 <div className="mt-media">
                   <NavLink to={route.Products.ColombianMetCoke}>
-                    <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+                  <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage src="images/products/Colombian MET COKE.jpg" alt="" />
                         </div>
                       </div>
                       
-                    </div>
+                      </OwlCarousel>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper p-a30 left bg-white">
@@ -123,17 +148,25 @@ function IndianLAMCoke() {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
+             <div className="mt-box bg-white m-b30 mt-service-2">
                 <div className="mt-media">
                   <NavLink to={route.Products.ColombianULP}>
-                    <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+                  <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                       <div className="item">
                         <div className="aon-thum-bx">
                         <FastImage src="images/products/Colombian (ULP).png" alt="" />
                         </div>
                       </div>
-                       
-                    </div>
+                      </OwlCarousel>
+                   
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper p-a30 left bg-white">
@@ -151,17 +184,25 @@ function IndianLAMCoke() {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
+             <div className="mt-box bg-white m-b30 mt-service-2">
                 <div className="mt-media">
                   <NavLink to={route.Products.ChinaMetCoke}>
-                    <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+                  <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                       <div className="item">
                         <div className="aon-thum-bx">
                           <FastImage src="images/products/ChinaMETCoke.jpg" alt="" />
                         </div>
                       </div>
                      
-                    </div>
+                      </OwlCarousel>
                   </NavLink>
                 </div>
                 <div className="mt-icon-box-wraper p-a30 left bg-white">

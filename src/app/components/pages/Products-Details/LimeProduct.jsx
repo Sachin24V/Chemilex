@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { loadScript, publicUrlFor } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
 import _data from "../../../../globals/data/data.json";
+import SectionSlider1 from "../../../sections/home/home1/section-slider1";
+ 
 
 function LimeProduct() {
   const { LimeProducts } = _data.services;
@@ -11,6 +13,7 @@ function LimeProduct() {
     loadScript("js/custom.js");
   });
 
+   
   return (
     <>
       {/* <div className="section-full  bg-gray p-t80 p-b50">
@@ -46,12 +49,18 @@ function LimeProduct() {
                     </div>
                 </div>
             </div> */}
+
+      {/* slider code */}
+      <SectionSlider1/>
+      
+  
+
       {/* Our Services */}
       <div className="section-full bg-white p-t80 p-b50">
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">  Services</h2>
+            <h2 data-title="Services"> Services</h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -70,7 +79,6 @@ function LimeProduct() {
                               <FastImage src={_item.image1} alt="" />
                             </div>
                           </div>
-                          
                         </div>
                         <div className="overlay-bx">
                           <div className="overlay-icon">

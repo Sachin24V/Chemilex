@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { loadScript, publicUrlFor } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
 import _data from "../../../../globals/data/data.json";
+import OtherminingSlider from "../../../sections/home/home1/OtherMiningSlider";
 
 export const OtherMiningProducts = () => {
   const { OtherMiningProductsr } = _data.services;
@@ -46,6 +47,10 @@ export const OtherMiningProducts = () => {
                     </div>
                 </div>
             </div> */}
+            <OtherminingSlider/>
+
+
+
       {/* Our Services */}
       <div className="section-full bg-white p-t80 p-b50">
         <div className="container">

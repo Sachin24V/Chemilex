@@ -157,10 +157,10 @@ At Chemilex Industries, we prioritize a collaborative and inclusive work environ
           <div className="col-lg-12 col-md-12">
             {/* TITLE START*/}
             <div className="section-head text-left">
-              <h2>Why Choose Us</h2>
-              <div className="mt-separator-outer">
+              {/* <h2>Why Choose Us</h2> */}
+              {/* <div className="mt-separator-outer">
                 <div className="mt-separator site-bg-primary" />
-              </div>
+              </div> */}
             </div>
             {/* TITLE END*/}
             <div className="section-content sx-why-choose">

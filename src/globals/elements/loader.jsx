@@ -32,7 +32,7 @@
 
 // export default Loader;
 import React from 'react';
-import loaderImage from '../Chemilex-BGR-Logo.png'; // Ensure this path is correct
+import loaderImage from '../Original Logo.jpg'; // Ensure this path is correct
 
 function Loader() {
     return (

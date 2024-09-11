@@ -82,12 +82,12 @@ function AppRoutes() {
 
       <Route
         path={route.Products.PRODUCT}
-        element={<InnerPageLayout content={<Products />} />}
+        element={ <Products /> }
       />
 
       <Route
         path={route.Products.LimeProduct}
-        element={<InnerPageLayout content={<LimeProduct />} />}
+        element={ <LimeProduct /> }
       />
       <Route
         path={route.Products.HydratedLimePowder}
@@ -107,7 +107,7 @@ function AppRoutes() {
       />
       <Route
         path={route.Products.ImportedIndianCoalCokes}
-        element={<InnerPageLayout content={<ImportedIndianCoalCokes />} />}
+        element={ <ImportedIndianCoalCokes /> }
       />
       <Route
         path={route.Products.IndianImportedCoal}
@@ -167,7 +167,7 @@ function AppRoutes() {
       />
       <Route
         path={route.Products.OtherMiningProducts}
-        element={<InnerPageLayout content={<OtherMiningProducts />} />}
+        element={<OtherMiningProducts />}
       />
       <Route
         path={route.Products.ChromeConcentrate}
@@ -183,7 +183,7 @@ function AppRoutes() {
       />
       <Route
         path={route.Products.LogisticTransport}
-        element={<InnerPageLayout content={<LogisticTransport />} />}
+        element={ <LogisticTransport /> }
       />
       <Route
         path={route.Products.RoadTransport}

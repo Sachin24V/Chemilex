@@ -31,8 +31,8 @@ function AboutUsPage() {
       <SectionHome2Video />
 
       {/* Why Choose us */}
-      {/* <SectionHome3WhyChooseUs /> */}
-      <div className="gap"></div>
+      <SectionHome3WhyChooseUs />
+      {/* <div className="gap"></div> */}
       {/* Our Services */}
       <div className="section-full bg-change-section overlay-wraper p-t80 p-b50">
         <div className="overlay-main   opacity-09" />
@@ -50,7 +50,7 @@ function AboutUsPage() {
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center text-white">
-            <h2 data-title="Services">Our Services </h2>
+            <h2 data-title="Our"> Products & Services </h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>

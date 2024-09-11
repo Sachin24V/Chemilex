@@ -3,6 +3,7 @@ import FastImage from "../../../globals/elements/fastimg";
 import { route, publicUrlFor, loadScript } from "../../../globals/constants";
 import { useEffect } from "react";
 import _data from "../../../globals/data/data.json";
+import AllProductsSlider from "../../sections/home/home1/AllProductsSlider";
 
 function Products() {
   const { services } = _data.services;
@@ -10,6 +11,13 @@ function Products() {
 
   useEffect(() => {
     loadScript("js/custom.js");
+    // const disableContextMenu = (e) => e.preventDefault();
+    // document.addEventListener("contextmenu", disableContextMenu);
+
+    // // Cleanup function
+    // return () => {
+    //   document.removeEventListener("contextmenu", disableContextMenu);
+    // };
   });
 
   return (
@@ -47,6 +55,12 @@ function Products() {
                     </div>
                 </div>
             </div> */}
+
+
+            <AllProductsSlider/>
+
+
+
       {/* Our Services */}
       <div className="section-full bg-white p-t80 p-b50">
         <div className="container">
@@ -68,7 +82,7 @@ function Products() {
                         <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                           <div className="item">
                             <div className="aon-thum-bx">
-                              <FastImage src={_item.image1} alt="" />
+                              <FastImage src={_item.image1} alt=""    />
                             </div>
                           </div>
                         </div>
@@ -81,43 +95,14 @@ function Products() {
                             <a
                               className="mfp-link"
                               href={publicUrlFor(_item.image_preview1)}
+                             
                             >
-                              <i className="fa fa-search-plus mt-icon-box-xs" />
+                              <i className="fa fa-search-plus mt-icon-box-xs"    />
                             </a>
                           </div>
-                          <div className="overlay-icon">
-                            <NavLink to={_item.path}>
-                              <i className="fa fa-external-link-square mt-icon-box-xs" />
-                            </NavLink>
-                            <a
-                              className="mfp-link"
-                              href={publicUrlFor(_item.image_preview2)}
-                            >
-                              <i className="fa fa-search-plus mt-icon-box-xs" />
-                            </a>
-                          </div>
-                          <div className="overlay-icon">
-                            <NavLink to={_item.path}>
-                              <i className="fa fa-external-link-square mt-icon-box-xs" />
-                            </NavLink>
-                            <a
-                              className="mfp-link"
-                              href={publicUrlFor(_item.image_preview3)}
-                            >
-                              <i className="fa fa-search-plus mt-icon-box-xs" />
-                            </a>
-                          </div>
-                          <div className="overlay-icon">
-                            <NavLink to={_item.path}>
-                              <i className="fa fa-external-link-square mt-icon-box-xs" />
-                            </NavLink>
-                            <a
-                              className="mfp-link"
-                              href={publicUrlFor(_item.image_preview4)}
-                            >
-                              <i className="fa fa-search-plus mt-icon-box-xs" />
-                            </a>
-                          </div>
+                          
+                          
+                          
                         </div>
                       </div>
                       <div className="mt-info p-a20">

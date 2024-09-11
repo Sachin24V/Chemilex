@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Chemilex/static/js/main.845bbf36.js",
+    "static/js/787.d9fbb323.chunk.js": "/Chemilex/static/js/787.d9fbb323.chunk.js",
+    "static/media/Original Logo.jpg": "/Chemilex/static/media/Original Logo.40ff37e4d58de6e1bade.jpg",
+    "index.html": "/Chemilex/index.html",
+    "main.845bbf36.js.map": "/Chemilex/static/js/main.845bbf36.js.map",
+    "787.d9fbb323.chunk.js.map": "/Chemilex/static/js/787.d9fbb323.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.845bbf36.js"
+  ]
+}

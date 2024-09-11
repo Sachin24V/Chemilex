@@ -21,7 +21,7 @@ function SectionFooter1(props) {
                   <div className="logo-footer clearfix p-b15">
                     <NavLink to={route.INITIAL}>
                       <FastImage
-                        src="images/Chemilex-BGR-Logo.png "
+                        src="images/industries_Chemilex_Final-01.png "
                         width={171}
                         height={49}
                         alt=""

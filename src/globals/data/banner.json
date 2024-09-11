@@ -131,8 +131,8 @@
   },
   "Products": {
     "background": "ProductsBanner-1.jpg",
-    "title": "Our Services",
-    "crumb": "Services"
+    "title": "Our Supplies & Services",
+    "crumb": "Supplies & Services"
   },
   "LimeProduct": {
     "background": "LimeProductsbanner.jpg",
@@ -215,7 +215,7 @@
     "crumb": " Indian LAM Coke"
   },
   "OtherMiningProducts": {
-    "background": "OtherMiningProducts2.jpg",
+    "background": "OtherMiningBanner.jpg",
     "title": "Other Mining Products",
     "crumb": " Other Mining Products"
   },
@@ -235,7 +235,7 @@
     "crumb": " Imported Magneses Ore"
   },
   "LogisticTransport": {
-    "background": "Logistic&Transport.jpg",
+    "background": "Logistic0909.png",
     "title": "Logistic & Transport",
     "crumb": " Logistic & Transport"
   },

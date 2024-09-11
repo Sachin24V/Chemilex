@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
+import OwlCarousel from 'react-owl-carousel';
 
 function RailTransport() {
   useEffect(() => {
@@ -43,23 +44,33 @@ function RailTransport() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
-                <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+              <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                   <div className="item">
                     <div className="aon-thum-bx">
-                      <FastImage src="images/products/RailTransport.jpg" alt="" />
+                      <FastImage src="images/products/Rail Transport.jpg" alt="" />
                     </div>
                   </div>
+                  </OwlCarousel>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+    
       <div className="section-full p-t80 p-b50 bg-gray">
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center">
-            <h2 data-title="Services">Services </h2>
+            <h2 data-title="Supplies">Services </h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>
@@ -67,7 +78,7 @@ function RailTransport() {
           {/* TITLE END*/}
           <div className="row d-flex justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div className="mt-box bdr-1 bdr-solid bdr-gray-light m-b30 mt-service-2">
+              <div className="mt-box bg-white m-b30 mt-service-2">
                 <div className="mt-media">
                   <NavLink to={route.Products.RailTransport}>
                     <FastImage src="images/products/RoadTransport.jpg" alt="" />

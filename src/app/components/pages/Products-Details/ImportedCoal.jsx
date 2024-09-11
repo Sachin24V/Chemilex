@@ -65,14 +65,13 @@ function ImportedCoal() {
                   <div key={index} className="col-lg-6 col-md-6 m-b30">
                     <div className="mt-box bg-white bdr-1 bdr-solid bdr-gray-light mt-service-1">
                       <div className="mt-thum-bx mt-img-overlay3 mt-img-effect">
-                        <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+                        
                           <div className="item">
                             <div className="aon-thum-bx">
                               <FastImage src={_item.image} alt="" />
                             </div>
                           </div>
-                          
-                        </div>
+                     
                         <div className="overlay-bx">
                           <div className="overlay-icon">
                             <NavLink to={_item.path}>

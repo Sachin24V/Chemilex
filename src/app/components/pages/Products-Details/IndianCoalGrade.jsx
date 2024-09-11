@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
-
+import OwlCarousel from 'react-owl-carousel';
 function IndianCoalGrade() {
   useEffect(() => {
     loadScript("js/custom.js");
@@ -57,18 +57,27 @@ function IndianCoalGrade() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
-                <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
+              <OwlCarousel
+                      className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20"
+                      items={1}
+                      loop
+                      nav
+                      dots
+                      mouseDrag={false} // Disable mouse dragging
+                      touchDrag={false} // Disable touch dragging
+                    > 
                   <div className="item">
                     <div className="aon-thum-bx">
                       <FastImage src="images/products/indian coal 1 to 17  grade.jpg" alt="" />
                     </div>
                   </div>
+                  </OwlCarousel>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+     
       {/* <div className="section-full p-t80 p-b50 bg-gray">
 <div className="container">
 

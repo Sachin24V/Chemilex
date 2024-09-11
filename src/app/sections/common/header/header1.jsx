@@ -27,7 +27,7 @@ function SectionHeader1() {
           <div className="logo-header hide-skew-section">
             <NavLink to={route.INITIAL}>
               <FastImage
-                src="images/ChemilexLogo.png"
+                src="images/Original Logo.jpg"
                 width={216}
                 height={37}
                 alt=""
@@ -177,9 +177,9 @@ function SectionHeader1() {
             <div className="logo-show-in-mobile">
               <NavLink to={route.INITIAL}>
                 <FastImage
-                  src="images/ChemilexLogo.png"
-                  width={216}
-                  height={37}
+                  src="images/Original Logo.jpg"
+                  width="100px !important"
+                  height="20px !important"
                   alt=""
                 />
               </NavLink>
@@ -258,14 +258,14 @@ function SectionHeader1() {
                         <li>
                           <NavLink to={route.Products.QuickLimePowder}>
                          
-                          Quick Lime
+                          Calcined/Quick Lime
                           </NavLink>
                         </li>
                        
                         <li>
                           <NavLink to={route.Products.QuickLimeLumps}>
                           
-                          Quick Lime Powder
+                          Calcined/Quick Lime Powder
                           </NavLink>
                         </li>
                       </ul>

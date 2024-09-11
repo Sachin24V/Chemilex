@@ -185,23 +185,23 @@
         "image_preview": "images/products/QuickLimeStone.jpg",
         "title": " Lime Stone",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/QuickLimeStone"
+        "path": "/product/LimeStone"
       },
       {
         "image1": "images/products/HydratedLimePowder(2).jpg",
     
         "image_preview": "images/products/HydratedLimePowder(2).jpg",
-        "title": "Hydrated/Calcined Lime",
+        "title": "Hydrated Lime",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/HydratedLimePowder"
+        "path": "/product/HydratedLime"
       },
       {
         "image1": "images/products/QuickLimeLumps.jpg",
   
         "image_preview": "images/products/QuickLimeLumps.jpg",
-        "title": "Quick Lime ",
+        "title": "Calcined/Quick Lime ",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/QuickLimePowder"
+        "path": "/product/CalcinedQuickLime"
       },
 
       {
@@ -209,9 +209,9 @@
         "image1": "images/products/QuickLimePowder.jpg",
   
         "image_preview": "images/products/QuickLimePowder.jpg",
-        "title": "Quick Lime Powder",
+        "title": "Calcined/Quick Lime Powder",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
-        "path": "/product/QuickLimeLumps"
+        "path": "/product/CalcinedQuickLimePowder"
       }
     ],
     "SubProductsCoke": [
@@ -295,23 +295,23 @@
     ],
     "OtherMiningProductsr": [
       {
-        "image1": "images/products/ChromeConcentrate.jpg",
+        "image1": "images/products/52.jpg",
        
-        "image_preview": "images/products/ChromeConcentrate.jpg",
+        "image_preview": "images/products/52.jpg",
         "title": "Chrome Concentrate",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/ChromeConcentrate"
       },
       {
-        "image1": "images/Products/Gypsum.jpg",
+        "image1": "images/products/51.jpg",
        
-        "image_preview": "images/products/Gypsum.jpg",
+        "image_preview": "images/products/51.jpg",
         "title": "Gypsum",
         "desc_short": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
         "path": "/product/Gypsum"
       },
       {
-        "image1": "images/products/Imported Magneses Ore.png",
+        "image1": "images/products/Our Products .jpg",
         
         "image_preview": "images/Products/Imported Magneses Ore.png",
         "title": "Imported mangenese Ore(East Africa)",
@@ -329,9 +329,9 @@
         "path": "/product/RoadTransport"
       },
       {
-        "image1": "images/products/RailTransport.jpg",
+        "image1": "images/products/Rail Transport.jpg",
        
-        "image_preview": "images/products/RailTransport.jpg",
+        "image_preview": "images/products/Rail Transport.jpg",
         "title": "Rail Transport",
        
         "path": "/product/RailTransport"

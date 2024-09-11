@@ -1,4 +1,3 @@
- 
 import FastImage from "../../../../globals/elements/fastimg";
 import { loadScript, publicUrlFor, route } from "../../../../globals/constants";
 import { NavLink } from "react-router-dom";
@@ -7,6 +6,10 @@ import { useEffect } from "react";
 function SectionSlider3() {
   useEffect(() => {
     loadScript("js/rev-script-1.js");
+    const slider = document.getElementById("rev_slider_1014_1");
+    if (slider) {
+      slider.style.height = "650px";
+    }
   }, []);
 
   return (
@@ -15,15 +18,15 @@ function SectionSlider3() {
         <div className="tp-banner">
           {/* START REVOLUTION SLIDER 5.4.1 */}
           <div
-  className="rev_slider_wrapper fullscreen-container"
-  data-alias="typewriter-effect"
-  data-source="gallery"
-  style={{ background: "#212427", height: "650px" }}
->
+            className="rev_slider_wrapper fullscreen-container"
+            data-alias="typewriter-effect"
+            data-source="gallery"
+            style={{ background: "#212427" }}
+          >
             <div
               id="rev_slider_1014_1"
               className="rev_slider fullscreenbanner"
-              style={{ display: "none",   }}
+              style={{ display: "none" }}
               data-version="5.4.1"
             >
               <ul>
@@ -60,7 +63,7 @@ function SectionSlider3() {
                     data-hoffset="['0','0','0','0']"
                     data-y="['top','top','top','top']"
                     data-voffset="['0','0','0','0']"
-                    data-width="full"
+                  
                     data-height="full"
                     data-type="shape"
                     data-basealign="slide"
@@ -71,7 +74,7 @@ function SectionSlider3() {
       ]'
                     style={{
                       zIndex: 12,
-                      backgroundColor: "rgba(0, 0, 0, 0.6)",
+                  
                       borderWidth: 0,
                     }}
                   ></div>
@@ -81,12 +84,14 @@ function SectionSlider3() {
                     className="rs-background-video-layer"
                     data-forcerewind="on"
                     data-volume="mute"
-                    data-videowidth="100%"
+                    data-videowidth="90%"
                     data-videoheight="100%"
-                    data-videomp4={publicUrlFor("media/video/Copy of Chemilex website home page banner (4).mp4")}
+                    data-videomp4={publicUrlFor(
+                      "media/video/CopyofChemilexwebsitehomepagebanner(6) (1) (1).mp4"
+                    )}
                     data-videopreload="auto"
                     data-videoloop="loop"
-                    data-aspectratio="16:9"
+                    data-aspectratio="19:9"
                     data-autoplay="true"
                     data-autoplayonlyfirsttime="false"
                   />
@@ -105,8 +110,8 @@ function SectionSlider3() {
                     data-type="text"
                     data-responsive_offset="on"
                     data-frames='[
-        {"from":"y:100px;opacity:0;","speed":2000,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},
-        {"delay":"wait","speed":1000,"to":"y:0;opacity:1;","ease":"Power2.easeInOut"}
+      {"delay":500,"split":"chars","splitdelay":0.2,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"sX:1;sY:1;opacity:1;","ease":"Power4.easeOut"},
+        {"delay":150 ,"speed":150,"frame":"999","to":"sX:0.8;sY:0.8;opacity:0;","ease":"Power4.easeInOut","loop":true}
       ]'
                     style={{
                       zIndex: 13,
@@ -135,8 +140,8 @@ function SectionSlider3() {
                     data-type="text"
                     data-responsive_offset="on"
                     data-frames='[
-        {"delay":1000,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"sX:1;sY:1;opacity:1;","ease":"Power4.easeOut"},
-        {"speed":500,"frame":"999","to":"sX:0.8;sY:0.8;opacity:0;","ease":"Power4.easeInOut","loop":true}
+        {"delay":500,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"sX:1;sY:1;opacity:1;","ease":"Power4.easeOut"},
+        {"delay":150 ,"speed":150,"frame":"999","to":"sX:0.8;sY:0.8;opacity:0;","ease":"Power4.easeInOut","loop":true}
       ]'
                     style={{
                       zIndex: 13,
@@ -148,12 +153,14 @@ function SectionSlider3() {
                       className="text-uppercase"
                       style={{ fontFamily: '"Roboto", sans-serif' }}
                     >
+                       
+
                       Chemilex Industries
                     </span>
                   </div>
 
                   {/* LAYER NR. 6 [ Button ] */}
-                  <div
+                  {/* <div
                     className="tp-caption RotatingWords-TitleWhite tp-resizeme tounblur"
                     id="slide-100-layer-8"
                     data-x="['left','left','left','left']"
@@ -181,7 +188,7 @@ function SectionSlider3() {
                       fontWeight: 500,
                       color: "rgba(255, 255, 255, 0.85)",
                       borderWidth: 0,
-                      marginTop:"-40px"
+                      marginTop: "-40px",
                     }}
                   >
                     <span style={{ fontFamily: '"Poppins", sans-serif' }}>
@@ -189,10 +196,10 @@ function SectionSlider3() {
                       Minerals and Coal Solutions for a Sustainable Future
                       Through Innovation and Quality
                     </span>
-                  </div>
+                  </div> */}
 
                   {/* LAYER NR. 9 [ Read More Button ] */}
-                  <div
+                  {/* <div
                     className="tp-caption tp-resizeme"
                     id="slide-100-layer-9"
                     data-x="['left','left','left','left']"
@@ -218,16 +225,16 @@ function SectionSlider3() {
                       zIndex: 13,
                       textTransform: "uppercase",
                       fontWeight: 700,
-                       marginTop:"-40px"
+                      marginTop: "-40px",
                     }}
                   >
                     <NavLink
                       to={route.pages.ABOUT}
-                      className="site-button button-lg m-r15"
+                      className="site-button button-lg  "
                     >
                       Read more
                     </NavLink>
-                  </div>
+                  </div> */}
                 </li>
               </ul>
             </div>
@@ -239,7 +246,6 @@ function SectionSlider3() {
 }
 
 export default SectionSlider3;
-
 
 // import FastImage from "../../../../globals/elements/fastimg";
 // import { loadScript, publicUrlFor, route } from "../../../../globals/constants";
@@ -267,7 +273,7 @@ export default SectionSlider3;
 //               className="rev_slider fullscreenbanner"
 //                data-version="5.4.1"
 //               style={{ display: "none" , }}
-             
+
 //             >
 //               <ul>
 //                 {/* SLIDE 1 */}

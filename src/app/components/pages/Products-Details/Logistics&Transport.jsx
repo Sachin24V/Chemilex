@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { loadScript, publicUrlFor } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
 import _data from "../../../../globals/data/data.json";
+import LogisticSlider from "../../../sections/home/home1/LogisticSlider";
 
 export const LogisticTransport = () => {
   const { LogisticTransport } = _data.services;
@@ -46,6 +47,12 @@ export const LogisticTransport = () => {
                     </div>
                 </div>
             </div> */}
+
+            <LogisticSlider/>
+
+
+
+
       {/* Our Services */}
       <div className="section-full bg-white p-t80 p-b50">
         <div className="container">

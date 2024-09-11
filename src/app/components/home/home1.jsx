@@ -173,15 +173,15 @@ className="mfp-video play-now"
                 <div className="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center m-b20">
                   <div className="item">
                     <div className="aon-thum-bx">
-                      <FastImage
-                        src="images/background/15.png"
-                        alt=""
-                      />
+                      <FastImage src="images/background/15.png" alt="" />
                     </div>
                   </div>
                   <div className="item">
                     <div className="aon-thum-bx">
-                      <FastImage src="images/background/Calcined Lime.png" alt="" />
+                      <FastImage
+                        src="images/background/Calcined Lime.png"
+                        alt=""
+                      />
                     </div>
                   </div>
                   <div className="item">
@@ -192,6 +192,42 @@ className="mfp-video play-now"
                       />
                     </div>
                   </div>
+
+
+                  <div className="item">
+                    <div className="aon-thum-bx">
+                      <FastImage
+                        src="images/background/17.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="aon-thum-bx">
+                      <FastImage
+                        src="images/background/18.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="aon-thum-bx">
+                      <FastImage
+                        src="images/background/19.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="aon-thum-bx">
+                      <FastImage
+                        src="images/background/20.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
             </div>
@@ -319,7 +355,13 @@ className="mfp-video play-now"
                 <div className="mt-box text-white m-b30">
                   <h2 className="m-tb0">Business & Services </h2>
                   <p className="m-b15">
-                  Chemilex Industries manufactures multiple Lime products from the topnotch lime stones & operates as a comprehensive coal company across India. We have a deep understanding of Lime stone, coal, and other mining products not only as a product but as a raw material, a fuel, and a source of energy. We provide industry-specific, 100% authentic, and trusted services tailored to the needs and usage of our consumers.
+                    Chemilex Industries manufactures multiple Lime products from
+                    the topnotch lime stones & operates as a comprehensive coal
+                    company across India. We have a deep understanding of Lime
+                    stone, coal, and other mining products not only as a product
+                    but as a raw material, a fuel, and a source of energy. We
+                    provide industry-specific, 100% authentic, and trusted
+                    services tailored to the needs and usage of our consumers.
                   </p>
                 </div>
               </div>
@@ -335,9 +377,9 @@ className="mfp-video play-now"
                             <FastImage
                               src="images/gallery/portrait/transports.jpg"
                               alt=""
-                            style={{
-                              height: "650px"
-                            }}
+                              style={{
+                                height: "695px",
+                              }}
                             />
                             <div className="overlay-2-bg bg-black" />
                             <div className="overlay-2-content">
@@ -367,7 +409,7 @@ className="mfp-video play-now"
                               src="images/gallery/portrait/trader.jpg"
                               alt=""
                               style={{
-                                height: "655px"
+                                height: "695px",
                               }}
                             />
                             <div className="overlay-2-bg bg-black" />
@@ -377,7 +419,13 @@ className="mfp-video play-now"
                                   Trader
                                 </h4>
                                 <p className="m-b20 text-white">
-                                Our company specializes in the trade of high-quality minerals, both imported and sourced locally from India. We offer a range of essential raw materials for various industries. With reliable sourcing and consistent supply, we ensure timely delivery to meet your industrial needs efficiently
+                                  Our company specializes in the trade of
+                                  high-quality minerals, both imported and
+                                  sourced locally from India. We offer a range
+                                  of essential raw materials for various
+                                  industries. With reliable sourcing and
+                                  consistent supply, we ensure timely delivery
+                                  to meet your industrial needs efficiently
                                   <ul className="list-check-circle primary m-b20">
                                     <li>
                                       <strong>Coal & Coke :</strong>{" "}
@@ -415,11 +463,10 @@ className="mfp-video play-now"
                         <div className="mt-box">
                           <div className="mt-img-effect overlay-2">
                             <FastImage
-                             
-                                src="images/gallery/portrait/manufacturer.jpg"
+                              src="images/gallery/portrait/manufacturer.jpg"
                               alt=""
                               style={{
-                                height: "655px"
+                                height: "695px",
                               }}
                             />
                             <div className="overlay-2-bg bg-black" />
@@ -429,7 +476,12 @@ className="mfp-video play-now"
                                   Logistics & Transportation
                                 </h4>
                                 <p className="m-b20 text-white">
-                                We provide comprehensive road and rail logistics solutions to ensure the smooth and timely transportation of goods across India. With a focus on safety and on-time delivery, we help businesses streamline their supply chain and optimize transport costs.  
+                                  We provide comprehensive road and rail
+                                  logistics solutions to ensure the smooth and
+                                  timely transportation of goods across India.
+                                  With a focus on safety and on-time delivery,
+                                  we help businesses streamline their supply
+                                  chain and optimize transport costs.
                                   <ul className="list-check-circle primary m-b20">
                                     <li>
                                       <strong>Road Transport :</strong>{" "}
@@ -465,7 +517,7 @@ className="mfp-video play-now"
                               src="images/gallery/portrait/Mining.png"
                               alt=""
                               style={{
-                                height: "655px"
+                                height: "695px",
                               }}
                             />
                             <div className="overlay-2-bg bg-black" />
@@ -493,7 +545,7 @@ className="mfp-video play-now"
                               src="images/gallery/portrait/Quality (3).png"
                               alt=""
                               style={{
-                                height: "655px"
+                                height: "695px",
                               }}
                             />
                             <div className="overlay-2-bg bg-black" />
@@ -517,8 +569,6 @@ className="mfp-video play-now"
                   </div>
                 </div>
               </div>
-
-               
             </div>
           </div>
         </div>
@@ -539,7 +589,6 @@ p-t80 p-b50"
       >
         <div className="overlay-main opacity-09" />
         <div className="bg-changer">
-           
           <div
             className="section-bg"
             style={{
@@ -556,7 +605,7 @@ p-t80 p-b50"
               )})`,
             }}
           />
-          
+
           <div
             className="section-bg"
             style={{
@@ -577,7 +626,7 @@ p-t80 p-b50"
         <div className="container">
           {/* TITLE START*/}
           <div className="section-head text-center text-white ">
-            <h2 data-title=" Our ">   EXPERTIES </h2>
+            <h2 data-title=" Our "> EXPERTIES </h2>
             <div className="mt-separator-outer">
               <div className="mt-separator site-bg-primary" />
             </div>

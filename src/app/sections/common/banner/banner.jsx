@@ -6,7 +6,7 @@ function SectionBanner(props) {
     return (
         <>
             <div className="mt-bnr-inr overlay-wraper" style={{ backgroundImage: `url(${publicUrlFor("images/banner/"+data.background)})` }}>
-                <div className="overlay-main bg-black opacity-07" />
+                <div className="overlay-main bg-black  " />
                 <div className="container">
                     <div className="mt-bnr-inr-entry">
                         <h1 className="text-white">{data.title}</h1>
